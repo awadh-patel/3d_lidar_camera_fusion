@@ -44,9 +44,9 @@ environment - **yolobot**: YOLOv8 object detection code for simulation
 
 ## 🧪 Features
 
-- ✅ Real-time object detection using YOLOv8
+- ✅ Real-time object detection using YOLOv8 in Gazebo
 - ✅ Point cloud generation from LiDAR and stereo camera
-- ✅ Accurate depth estimation of detected objects
+- ✅ Accurate depth estimation from Lidar of detected objects by camera
 - ✅ Simulated and real-world testing environments
 - ✅ ROS2 Humble, RViz2, Gazebo integration
 
