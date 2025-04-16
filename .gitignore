@@ -1,6 +1,43 @@
+# ROS 2 build files
 **/build/
 **/install/
 **/log/
-*.pyc
-__pycache__/
 
+# ROS 2 launch logs
+*.launch.py~
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VSCode settings
+.vscode/
+
+# CLion or JetBrains IDE settings
+.idea/
+
+# Mac system files
+.DS_Store
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+*~
+
+# ROS2 workspace overlays
+colcon_workspace/
+.colcon/
+
+# Ignore dataset and model folders (optional, uncomment if needed)
+# data/
+# models/
+# yolobot/runs/
