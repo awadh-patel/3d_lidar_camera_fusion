@@ -1,0 +1,1 @@
+/home/awadh/ouster_ws/build/ouster_sensor_msgs/rosidl_cmake/srv/SetConfig_Response.msg

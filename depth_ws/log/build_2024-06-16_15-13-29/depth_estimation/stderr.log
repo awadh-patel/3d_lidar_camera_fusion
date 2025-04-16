@@ -1,0 +1,5 @@
+  File "/home/awadh/depth_ws/install/depth_estimation/lib/python3.10/site-packages/depth_estimation/rviz_depth.py", line 73
+    depth_msg.data = f'Average Depth for {class_label}: {avg_depth:.2f} meters')
+                                                                               ^
+SyntaxError: unmatched ')'
+

@@ -1,0 +1,174 @@
+[0.009s] Invoking command in '/home/awadh/ouster_ws/build/ouster_sensor_msgs': CMAKE_PREFIX_PATH=/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/zed_ws/install/zed_ros2:/home/awadh/zed_ws/install/zed_robot_integration:/home/awadh/zed_ws/install/zed_multi_camera:/home/awadh/zed_ws/install/zed_display_rviz2:/home/awadh/zed_ws/install/zed_depth_to_laserscan:/home/awadh/zed_ws/install/zed_wrapper:/home/awadh/zed_ws/install/zed_tutorial_video:/home/awadh/zed_ws/install/zed_tutorial_pos_tracking:/home/awadh/zed_ws/install/zed_tutorial_depth:/home/awadh/zed_ws/install/zed_topic_benchmark:/home/awadh/zed_ws/install/zed_topic_benchmark_component:/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces:/home/awadh/zed_ws/install/zed_rgb_convert:/home/awadh/zed_ws/install/zed_aruco_localization:/home/awadh/zed_ws/install/zed_components:/home/awadh/zed_ws/install/rviz_plugin_zed_od:/home/awadh/zed_ws/install/zed_interfaces:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/awadh/sick_tim_ws/install/sick_tim /usr/bin/cmake --build /home/awadh/ouster_ws/build/ouster_sensor_msgs -- -j16 -l16
+[0.058s] [  1%] Built target ouster_sensor_msgs__cpp
+[0.063s] [  1%] Built target ament_cmake_python_symlink_ouster_sensor_msgs
+[0.063s] [ 12%] Built target ouster_sensor_msgs__rosidl_generator_c
+[0.082s] [ 34%] Built target ouster_sensor_msgs__rosidl_typesupport_introspection_cpp
+[0.082s] [ 34%] Built target ouster_sensor_msgs__rosidl_typesupport_cpp
+[0.082s] [ 47%] Built target ouster_sensor_msgs__rosidl_typesupport_introspection_c
+[0.082s] [ 56%] Built target ouster_sensor_msgs__rosidl_typesupport_c
+[0.082s] [ 67%] Built target ouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp
+[0.084s] [ 78%] Built target ouster_sensor_msgs__rosidl_typesupport_fastrtps_c
+[0.100s] [ 78%] Built target ouster_sensor_msgs
+[0.117s] [ 80%] Built target ouster_sensor_msgs__py
+[0.138s] [ 89%] Built target ouster_sensor_msgs__rosidl_generator_py
+[0.156s] [100%] Built target ouster_sensor_msgs__rosidl_typesupport_introspection_c__pyext
+[0.156s] [100%] Built target ouster_sensor_msgs__rosidl_typesupport_c__pyext
+[0.156s] [100%] Built target ouster_sensor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.240s] running egg_info
+[0.240s] writing ouster_sensor_msgs.egg-info/PKG-INFO
+[0.240s] writing dependency_links to ouster_sensor_msgs.egg-info/dependency_links.txt
+[0.240s] writing top-level names to ouster_sensor_msgs.egg-info/top_level.txt
+[0.242s] reading manifest file 'ouster_sensor_msgs.egg-info/SOURCES.txt'
+[0.242s] writing manifest file 'ouster_sensor_msgs.egg-info/SOURCES.txt'
+[0.260s] [100%] Built target ament_cmake_python_build_ouster_sensor_msgs_egg
+[0.269s] Invoked command in '/home/awadh/ouster_ws/build/ouster_sensor_msgs' returned '0': CMAKE_PREFIX_PATH=/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/zed_ws/install/zed_ros2:/home/awadh/zed_ws/install/zed_robot_integration:/home/awadh/zed_ws/install/zed_multi_camera:/home/awadh/zed_ws/install/zed_display_rviz2:/home/awadh/zed_ws/install/zed_depth_to_laserscan:/home/awadh/zed_ws/install/zed_wrapper:/home/awadh/zed_ws/install/zed_tutorial_video:/home/awadh/zed_ws/install/zed_tutorial_pos_tracking:/home/awadh/zed_ws/install/zed_tutorial_depth:/home/awadh/zed_ws/install/zed_topic_benchmark:/home/awadh/zed_ws/install/zed_topic_benchmark_component:/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces:/home/awadh/zed_ws/install/zed_rgb_convert:/home/awadh/zed_ws/install/zed_aruco_localization:/home/awadh/zed_ws/install/zed_components:/home/awadh/zed_ws/install/rviz_plugin_zed_od:/home/awadh/zed_ws/install/zed_interfaces:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/awadh/sick_tim_ws/install/sick_tim /usr/bin/cmake --build /home/awadh/ouster_ws/build/ouster_sensor_msgs -- -j16 -l16
+[0.559s] Invoking command in '/home/awadh/ouster_ws/build/ouster_sensor_msgs': CMAKE_PREFIX_PATH=/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/zed_ws/install/zed_ros2:/home/awadh/zed_ws/install/zed_robot_integration:/home/awadh/zed_ws/install/zed_multi_camera:/home/awadh/zed_ws/install/zed_display_rviz2:/home/awadh/zed_ws/install/zed_depth_to_laserscan:/home/awadh/zed_ws/install/zed_wrapper:/home/awadh/zed_ws/install/zed_tutorial_video:/home/awadh/zed_ws/install/zed_tutorial_pos_tracking:/home/awadh/zed_ws/install/zed_tutorial_depth:/home/awadh/zed_ws/install/zed_topic_benchmark:/home/awadh/zed_ws/install/zed_topic_benchmark_component:/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces:/home/awadh/zed_ws/install/zed_rgb_convert:/home/awadh/zed_ws/install/zed_aruco_localization:/home/awadh/zed_ws/install/zed_components:/home/awadh/zed_ws/install/rviz_plugin_zed_od:/home/awadh/zed_ws/install/zed_interfaces:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/awadh/sick_tim_ws/install/sick_tim /usr/bin/cmake --install /home/awadh/ouster_ws/build/ouster_sensor_msgs
+[0.580s] -- Install configuration: "Release"
+[0.581s] -- Execute custom install script
+[0.582s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ament_index/resource_index/rosidl_interfaces/ouster_sensor_msgs
+[0.583s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__functions.h
+[0.584s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__struct.h
+[0.584s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__type_support.h
+[0.584s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/packet_msg.h
+[0.584s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.585s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__functions.h
+[0.585s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__struct.h
+[0.585s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__type_support.h
+[0.585s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__functions.h
+[0.586s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__struct.h
+[0.586s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__type_support.h
+[0.586s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__functions.h
+[0.586s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__struct.h
+[0.587s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__type_support.h
+[0.587s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_config.h
+[0.587s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_metadata.h
+[0.587s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/set_config.h
+[0.587s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/library_path.sh
+[0.588s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/library_path.dsv
+[0.588s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__rosidl_typesupport_fastrtps_c.h
+[0.588s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.588s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__rosidl_typesupport_fastrtps_c.h
+[0.588s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__rosidl_typesupport_fastrtps_c.h
+[0.589s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__rosidl_typesupport_fastrtps_c.h
+[0.589s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__builder.hpp
+[0.589s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__struct.hpp
+[0.589s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__traits.hpp
+[0.589s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/packet_msg.hpp
+[0.590s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__builder.hpp
+[0.590s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__struct.hpp
+[0.590s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__traits.hpp
+[0.590s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__builder.hpp
+[0.590s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__struct.hpp
+[0.590s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__traits.hpp
+[0.590s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__builder.hpp
+[0.591s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__struct.hpp
+[0.591s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__traits.hpp
+[0.591s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_config.hpp
+[0.591s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_metadata.hpp
+[0.591s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/set_config.hpp
+[0.592s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.592s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.592s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__rosidl_typesupport_fastrtps_cpp.hpp
+[0.592s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[0.592s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__rosidl_typesupport_fastrtps_cpp.hpp
+[0.592s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__rosidl_typesupport_introspection_c.h
+[0.593s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.593s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__rosidl_typesupport_introspection_c.h
+[0.593s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__rosidl_typesupport_introspection_c.h
+[0.593s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__rosidl_typesupport_introspection_c.h
+[0.593s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__rosidl_typesupport_introspection_cpp.hpp
+[0.593s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__rosidl_typesupport_introspection_cpp.hpp
+[0.594s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__rosidl_typesupport_introspection_cpp.hpp
+[0.594s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__rosidl_typesupport_introspection_cpp.hpp
+[0.594s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/pythonpath.sh
+[0.594s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/pythonpath.dsv
+[0.594s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.12.2-py3.10.egg-info/PKG-INFO
+[0.594s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.12.2-py3.10.egg-info/SOURCES.txt
+[0.594s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.12.2-py3.10.egg-info/dependency_links.txt
+[0.595s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.12.2-py3.10.egg-info/top_level.txt
+[0.595s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/__init__.py
+[0.595s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_c.c
+[0.595s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.596s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.596s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/libouster_sensor_msgs__rosidl_generator_py.so
+[0.596s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg/__init__.py
+[0.596s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg/_packet_msg.py
+[0.596s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg/_packet_msg_s.c
+[0.596s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.597s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.597s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.597s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/__init__.py
+[0.597s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_config.py
+[0.597s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_config_s.c
+[0.597s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_metadata.py
+[0.597s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_metadata_s.c
+[0.598s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_set_config.py
+[0.598s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_set_config_s.c
+[0.598s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.598s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.598s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.598s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/msg/PacketMsg.idl
+[0.598s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetConfig.idl
+[0.599s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/SetConfig.idl
+[0.599s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetMetadata.idl
+[0.599s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/msg/PacketMsg.msg
+[0.599s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetConfig.srv
+[0.599s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetConfig_Request.msg
+[0.599s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetConfig_Response.msg
+[0.599s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/SetConfig.srv
+[0.599s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/SetConfig_Request.msg
+[0.599s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/SetConfig_Response.msg
+[0.599s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetMetadata.srv
+[0.599s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetMetadata_Request.msg
+[0.600s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetMetadata_Response.msg
+[0.600s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ament_index/resource_index/package_run_dependencies/ouster_sensor_msgs
+[0.600s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ament_index/resource_index/parent_prefix_path/ouster_sensor_msgs
+[0.600s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/ament_prefix_path.sh
+[0.600s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/ament_prefix_path.dsv
+[0.600s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/path.sh
+[0.600s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/path.dsv
+[0.600s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/local_setup.bash
+[0.600s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/local_setup.sh
+[0.601s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/local_setup.zsh
+[0.601s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/local_setup.dsv
+[0.601s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/package.dsv
+[0.607s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ament_index/resource_index/packages/ouster_sensor_msgs
+[0.607s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/rosidl_cmake-extras.cmake
+[0.607s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.608s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.608s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.608s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.608s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.608s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.608s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgsConfig.cmake
+[0.608s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgsConfig-version.cmake
+[0.609s] -- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/package.xml
+[0.609s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_generator_c.so
+[0.609s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_fastrtps_c.so
+[0.610s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.610s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_introspection_c.so
+[0.611s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_c.so
+[0.611s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_introspection_cpp.so
+[0.611s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_cpp.so
+[0.634s] Listing '/home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs'...
+[0.634s] Listing '/home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg'...
+[0.634s] Listing '/home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv'...
+[0.637s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_generator_py.so
+[0.637s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_cExport.cmake
+[0.637s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_cExport-release.cmake
+[0.638s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.638s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[0.638s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_cppExport.cmake
+[0.638s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.638s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[0.638s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.638s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[0.639s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_cExport.cmake
+[0.639s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_cExport-release.cmake
+[0.639s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.639s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[0.639s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_cppExport.cmake
+[0.639s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_cppExport-release.cmake
+[0.639s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_pyExport.cmake
+[0.639s] -- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_pyExport-release.cmake
+[0.641s] Invoked command in '/home/awadh/ouster_ws/build/ouster_sensor_msgs' returned '0': CMAKE_PREFIX_PATH=/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/zed_ws/install/zed_ros2:/home/awadh/zed_ws/install/zed_robot_integration:/home/awadh/zed_ws/install/zed_multi_camera:/home/awadh/zed_ws/install/zed_display_rviz2:/home/awadh/zed_ws/install/zed_depth_to_laserscan:/home/awadh/zed_ws/install/zed_wrapper:/home/awadh/zed_ws/install/zed_tutorial_video:/home/awadh/zed_ws/install/zed_tutorial_pos_tracking:/home/awadh/zed_ws/install/zed_tutorial_depth:/home/awadh/zed_ws/install/zed_topic_benchmark:/home/awadh/zed_ws/install/zed_topic_benchmark_component:/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces:/home/awadh/zed_ws/install/zed_rgb_convert:/home/awadh/zed_ws/install/zed_aruco_localization:/home/awadh/zed_ws/install/zed_components:/home/awadh/zed_ws/install/rviz_plugin_zed_od:/home/awadh/zed_ws/install/zed_interfaces:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/awadh/sick_tim_ws/install/sick_tim /usr/bin/cmake --install /home/awadh/ouster_ws/build/ouster_sensor_msgs

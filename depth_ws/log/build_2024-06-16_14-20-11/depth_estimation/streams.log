@@ -1,0 +1,23 @@
+[0.497s] Invoking command in '/home/awadh/depth_ws/src/depth_estimation': PYTHONPATH=/home/awadh/depth_ws/build/depth_estimation/prefix_override:/home/awadh/depth_ws/install/depth_estimation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/depth_estimation build --build-base /home/awadh/depth_ws/build/depth_estimation/build install --record /home/awadh/depth_ws/build/depth_estimation/install.log --single-version-externally-managed install_data
+[0.675s] running egg_info
+[0.675s] writing ../../build/depth_estimation/depth_estimation.egg-info/PKG-INFO
+[0.675s] writing dependency_links to ../../build/depth_estimation/depth_estimation.egg-info/dependency_links.txt
+[0.675s] writing entry points to ../../build/depth_estimation/depth_estimation.egg-info/entry_points.txt
+[0.675s] writing requirements to ../../build/depth_estimation/depth_estimation.egg-info/requires.txt
+[0.675s] writing top-level names to ../../build/depth_estimation/depth_estimation.egg-info/top_level.txt
+[0.676s] reading manifest file '../../build/depth_estimation/depth_estimation.egg-info/SOURCES.txt'
+[0.677s] writing manifest file '../../build/depth_estimation/depth_estimation.egg-info/SOURCES.txt'
+[0.677s] running build
+[0.677s] running build_py
+[0.677s] copying depth_estimation/rviz_depth.py -> /home/awadh/depth_ws/build/depth_estimation/build/lib/depth_estimation
+[0.677s] running install
+[0.678s] running install_lib
+[0.678s] copying /home/awadh/depth_ws/build/depth_estimation/build/lib/depth_estimation/rviz_depth.py -> /home/awadh/depth_ws/install/depth_estimation/lib/python3.10/site-packages/depth_estimation
+[0.679s] byte-compiling /home/awadh/depth_ws/install/depth_estimation/lib/python3.10/site-packages/depth_estimation/rviz_depth.py to rviz_depth.cpython-310.pyc
+[0.680s] running install_data
+[0.680s] running install_egg_info
+[0.681s] removing '/home/awadh/depth_ws/install/depth_estimation/lib/python3.10/site-packages/depth_estimation-0.0.0-py3.10.egg-info' (and everything under it)
+[0.681s] Copying ../../build/depth_estimation/depth_estimation.egg-info to /home/awadh/depth_ws/install/depth_estimation/lib/python3.10/site-packages/depth_estimation-0.0.0-py3.10.egg-info
+[0.681s] running install_scripts
+[0.694s] writing list of installed files to '/home/awadh/depth_ws/build/depth_estimation/install.log'
+[0.710s] Invoked command in '/home/awadh/depth_ws/src/depth_estimation' returned '0': PYTHONPATH=/home/awadh/depth_ws/build/depth_estimation/prefix_override:/home/awadh/depth_ws/install/depth_estimation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/depth_estimation build --build-base /home/awadh/depth_ws/build/depth_estimation/build install --record /home/awadh/depth_ws/build/depth_estimation/install.log --single-version-externally-managed install_data

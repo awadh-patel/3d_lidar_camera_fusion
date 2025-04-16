@@ -1,0 +1,9 @@
+/home/awadh/yolobot/build/yolobot_control/CMakeFiles/uninstall.dir
+/home/awadh/yolobot/build/yolobot_control/CMakeFiles/yolobot_control_uninstall.dir
+/home/awadh/yolobot/build/yolobot_control/CMakeFiles/test.dir
+/home/awadh/yolobot/build/yolobot_control/CMakeFiles/edit_cache.dir
+/home/awadh/yolobot/build/yolobot_control/CMakeFiles/rebuild_cache.dir
+/home/awadh/yolobot/build/yolobot_control/CMakeFiles/list_install_components.dir
+/home/awadh/yolobot/build/yolobot_control/CMakeFiles/install.dir
+/home/awadh/yolobot/build/yolobot_control/CMakeFiles/install/local.dir
+/home/awadh/yolobot/build/yolobot_control/CMakeFiles/install/strip.dir

@@ -1,0 +1,11 @@
+/home/awadh/zed_ws/build/zed_tutorial_pos_tracking/CMakeFiles/uninstall.dir
+/home/awadh/zed_ws/build/zed_tutorial_pos_tracking/CMakeFiles/zed_tutorial_pos_tracking_uninstall.dir
+/home/awadh/zed_ws/build/zed_tutorial_pos_tracking/CMakeFiles/zed_tutorial_pos_tracking_files.dir
+/home/awadh/zed_ws/build/zed_tutorial_pos_tracking/CMakeFiles/zed_tutorial_pos_tracking.dir
+/home/awadh/zed_ws/build/zed_tutorial_pos_tracking/CMakeFiles/test.dir
+/home/awadh/zed_ws/build/zed_tutorial_pos_tracking/CMakeFiles/edit_cache.dir
+/home/awadh/zed_ws/build/zed_tutorial_pos_tracking/CMakeFiles/rebuild_cache.dir
+/home/awadh/zed_ws/build/zed_tutorial_pos_tracking/CMakeFiles/list_install_components.dir
+/home/awadh/zed_ws/build/zed_tutorial_pos_tracking/CMakeFiles/install.dir
+/home/awadh/zed_ws/build/zed_tutorial_pos_tracking/CMakeFiles/install/local.dir
+/home/awadh/zed_ws/build/zed_tutorial_pos_tracking/CMakeFiles/install/strip.dir

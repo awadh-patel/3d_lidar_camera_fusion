@@ -1,0 +1,1 @@
+/home/awadh/ouster_ws/build/ouster_sensor_msgs/rosidl_generator_c/ouster_sensor_msgs/srv/detail/get_config__functions.h

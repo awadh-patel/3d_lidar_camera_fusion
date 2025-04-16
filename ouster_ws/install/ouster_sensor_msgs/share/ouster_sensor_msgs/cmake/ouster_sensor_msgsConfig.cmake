@@ -1,0 +1,1 @@
+/home/awadh/ouster_ws/build/ouster_sensor_msgs/ament_cmake_core/ouster_sensor_msgsConfig.cmake

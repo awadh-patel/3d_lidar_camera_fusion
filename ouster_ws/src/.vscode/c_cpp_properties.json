@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/awadh/zed_ws/install/zed_topic_benchmark_component/include/**",
+        "/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces/include/**",
+        "/home/awadh/zed_ws/install/zed_rgb_convert/include/**",
+        "/home/awadh/zed_ws/install/zed_aruco_localization/include/**",
+        "/home/awadh/zed_ws/install/zed_components/include/**",
+        "/home/awadh/zed_ws/install/rviz_plugin_zed_od/include/**",
+        "/home/awadh/zed_ws/install/zed_interfaces/include/**",
+        "/home/awadh/ouster_ws/install/ouster_ros/include/**",
+        "/home/awadh/ouster_ws/install/ouster_sensor_msgs/include/**",
+        "/home/awadh/ros2_ws/install/my_robot_interfaces/include/**",
+        "/home/awadh/sick_tim_ws/install/sick_tim/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

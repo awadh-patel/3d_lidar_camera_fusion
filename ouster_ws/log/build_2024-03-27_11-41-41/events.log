@@ -1,0 +1,880 @@
+[0.000000] (-) TimerEvent: {}
+[0.000119] (ouster_sensor_msgs) JobQueued: {'identifier': 'ouster_sensor_msgs', 'dependencies': OrderedDict()}
+[0.000137] (ouster_ros) JobQueued: {'identifier': 'ouster_ros', 'dependencies': OrderedDict([('ouster_sensor_msgs', '/home/awadh/ouster_ws/install/ouster_sensor_msgs')])}
+[0.000151] (ouster_sensor_msgs) JobStarted: {'identifier': 'ouster_sensor_msgs'}
+[0.008808] (ouster_sensor_msgs) JobProgress: {'identifier': 'ouster_sensor_msgs', 'progress': 'cmake'}
+[0.009319] (ouster_sensor_msgs) JobProgress: {'identifier': 'ouster_sensor_msgs', 'progress': 'build'}
+[0.009722] (ouster_sensor_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/awadh/ouster_ws/build/ouster_sensor_msgs', '--', '-j16', '-l16'], 'cwd': '/home/awadh/ouster_ws/build/ouster_sensor_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'awadh'), ('LC_TIME', 'en_IN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/awadh/zed_ws/install/zed_topic_benchmark_component/lib:/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces/lib:/home/awadh/zed_ws/install/zed_rgb_convert/lib:/home/awadh/zed_ws/install/zed_aruco_localization/lib:/home/awadh/zed_ws/install/zed_components/lib:/home/awadh/zed_ws/install/rviz_plugin_zed_od/lib:/home/awadh/zed_ws/install/zed_interfaces/lib:/home/awadh/ouster_ws/install/ouster_ros/lib:/home/awadh/ouster_ws/install/ouster_sensor_msgs/lib:/home/awadh/ros2_ws/install/my_robot_interfaces/lib:/home/awadh/sick_tim_ws/install/sick_tim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/awadh'), ('OLDPWD', '/home/awadh'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_IN.UTF-8'), ('MANAGERPID', '3038'), ('SYSTEMD_EXEC_PID', '3488'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6663'), ('COLCON_PREFIX_PATH', '/home/awadh/zed_ws/install:/home/awadh/ouster_ws/install:/home/awadh/sick_tim_ws/install:/home/awadh/ros2_ws/install:/home/awadh/gazebo_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'awadh'), ('JOURNAL_STREAM', '8:28380'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'awadh'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models::/home/awadh/.gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/awadh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/awadh:@/tmp/.ICE-unix/3469,unix/awadh:/tmp/.ICE-unix/3469'), ('INVOCATION_ID', '224fc21b5ca14a1eb2884819d0e4e33c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_IN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/awadh/gazebo_ws/install/my_robo_bringup:/home/awadh/gazebo_ws/install/my_robo_description:/home/awadh/zed_ws/install/zed_ros2:/home/awadh/zed_ws/install/zed_robot_integration:/home/awadh/zed_ws/install/zed_multi_camera:/home/awadh/zed_ws/install/zed_display_rviz2:/home/awadh/zed_ws/install/zed_depth_to_laserscan:/home/awadh/zed_ws/install/zed_wrapper:/home/awadh/zed_ws/install/zed_tutorial_video:/home/awadh/zed_ws/install/zed_tutorial_pos_tracking:/home/awadh/zed_ws/install/zed_tutorial_depth:/home/awadh/zed_ws/install/zed_topic_benchmark:/home/awadh/zed_ws/install/zed_topic_benchmark_component:/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces:/home/awadh/zed_ws/install/zed_rgb_convert:/home/awadh/zed_ws/install/zed_aruco_localization:/home/awadh/zed_ws/install/zed_components:/home/awadh/zed_ws/install/rviz_plugin_zed_od:/home/awadh/zed_ws/install/zed_interfaces:/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/sick_tim_ws/install/sick_tim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c63d7d1f-d7c7-46bf-9a2f-e0414e328f73'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_IN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_IN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/awadh/ouster_ws/build/ouster_sensor_msgs'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages:/home/awadh/zed_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:/home/awadh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/awadh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/awadh/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN.UTF-8'), ('LC_PAPER', 'en_IN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/awadh/gazebo_ws/install/my_robo_bringup:/home/awadh/gazebo_ws/install/my_robo_description:/home/awadh/zed_ws/install/zed_ros2:/home/awadh/zed_ws/install/zed_robot_integration:/home/awadh/zed_ws/install/zed_multi_camera:/home/awadh/zed_ws/install/zed_display_rviz2:/home/awadh/zed_ws/install/zed_depth_to_laserscan:/home/awadh/zed_ws/install/zed_wrapper:/home/awadh/zed_ws/install/zed_tutorial_video:/home/awadh/zed_ws/install/zed_tutorial_pos_tracking:/home/awadh/zed_ws/install/zed_tutorial_depth:/home/awadh/zed_ws/install/zed_topic_benchmark:/home/awadh/zed_ws/install/zed_topic_benchmark_component:/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces:/home/awadh/zed_ws/install/zed_rgb_convert:/home/awadh/zed_ws/install/zed_aruco_localization:/home/awadh/zed_ws/install/zed_components:/home/awadh/zed_ws/install/rviz_plugin_zed_od:/home/awadh/zed_ws/install/zed_interfaces:/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/awadh/sick_tim_ws/install/sick_tim')]), 'shell': False}
+[0.067335] (ouster_sensor_msgs) StdoutLine: {'line': b'[  1%] Built target ouster_sensor_msgs__cpp\n'}
+[0.071710] (ouster_sensor_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_ouster_sensor_msgs\n'}
+[0.072794] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 12%] Built target ouster_sensor_msgs__rosidl_generator_c\n'}
+[0.093242] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ouster_sensor_msgs/srv/detail/get_config__type_support.cpp.o\x1b[0m\n'}
+[0.093488] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ouster_sensor_msgs/srv/detail/set_config__type_support.cpp.o\x1b[0m\n'}
+[0.093553] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ouster_sensor_msgs/msg/packet_msg__type_support.cpp.o\x1b[0m\n'}
+[0.093610] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ouster_sensor_msgs/srv/get_metadata__type_support.cpp.o\x1b[0m\n'}
+[0.093660] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ouster_sensor_msgs/msg/detail/packet_msg__type_support.cpp.o\x1b[0m\n'}
+[0.093712] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ouster_sensor_msgs/srv/set_config__type_support.cpp.o\x1b[0m\n'}
+[0.094192] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ouster_sensor_msgs/msg/detail/dds_fastrtps/packet_msg__type_support.cpp.o\x1b[0m\n'}
+[0.094461] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ouster_sensor_msgs/srv/get_config__type_support.cpp.o\x1b[0m\n'}
+[0.094536] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ouster_sensor_msgs/srv/detail/dds_fastrtps/set_config__type_support.cpp.o\x1b[0m\n'}
+[0.094598] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ouster_sensor_msgs/srv/detail/get_metadata__type_support.cpp.o\x1b[0m\n'}
+[0.094649] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ouster_sensor_msgs/srv/detail/dds_fastrtps/get_metadata__type_support.cpp.o\x1b[0m\n'}
+[0.094701] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ouster_sensor_msgs/srv/detail/dds_fastrtps/get_config__type_support.cpp.o\x1b[0m\n'}
+[0.095645] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 47%] Built target ouster_sensor_msgs__rosidl_typesupport_introspection_c\n'}
+[0.095767] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 56%] Built target ouster_sensor_msgs__rosidl_typesupport_c\n'}
+[0.097517] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ouster_sensor_msgs/msg/detail/packet_msg__type_support_c.cpp.o\x1b[0m\n'}
+[0.099449] (-) TimerEvent: {}
+[0.104400] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ouster_sensor_msgs/srv/detail/get_config__type_support_c.cpp.o\x1b[0m\n'}
+[0.106401] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ouster_sensor_msgs/srv/detail/set_config__type_support_c.cpp.o\x1b[0m\n'}
+[0.199577] (-) TimerEvent: {}
+[0.299964] (-) TimerEvent: {}
+[0.400351] (-) TimerEvent: {}
+[0.407636] (ouster_sensor_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.408686] (ouster_sensor_msgs) StdoutLine: {'line': b'writing ouster_sensor_msgs.egg-info/PKG-INFO\n'}
+[0.409021] (ouster_sensor_msgs) StdoutLine: {'line': b'writing dependency_links to ouster_sensor_msgs.egg-info/dependency_links.txt\n'}
+[0.409265] (ouster_sensor_msgs) StdoutLine: {'line': b'writing top-level names to ouster_sensor_msgs.egg-info/top_level.txt\n'}
+[0.414008] (ouster_sensor_msgs) StdoutLine: {'line': b"reading manifest file 'ouster_sensor_msgs.egg-info/SOURCES.txt'\n"}
+[0.415005] (ouster_sensor_msgs) StdoutLine: {'line': b"writing manifest file 'ouster_sensor_msgs.egg-info/SOURCES.txt'\n"}
+[0.439776] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ouster_sensor_msgs/srv/detail/get_metadata__type_support_c.cpp.o\x1b[0m\n'}
+[0.440140] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libouster_sensor_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[0.457483] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 65%] Built target ament_cmake_python_build_ouster_sensor_msgs_egg\n'}
+[0.493794] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 67%] Built target ouster_sensor_msgs__rosidl_typesupport_cpp\n'}
+[0.500476] (-) TimerEvent: {}
+[0.583052] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libouster_sensor_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[0.596569] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[0.600558] (-) TimerEvent: {}
+[0.635484] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 72%] Built target ouster_sensor_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.646666] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 74%] Built target ouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.700652] (-) TimerEvent: {}
+[0.715036] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libouster_sensor_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[0.762823] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 78%] Built target ouster_sensor_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.778458] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 78%] Built target ouster_sensor_msgs\n'}
+[0.793616] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 80%] Built target ouster_sensor_msgs__py\n'}
+[0.800736] (-) TimerEvent: {}
+[0.813048] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/ouster_sensor_msgs/msg/_packet_msg_s.c.o\x1b[0m\n'}
+[0.813227] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/ouster_sensor_msgs/srv/_set_config_s.c.o\x1b[0m\n'}
+[0.813626] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/ouster_sensor_msgs/srv/_get_metadata_s.c.o\x1b[0m\n'}
+[0.813729] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/ouster_sensor_msgs/srv/_get_config_s.c.o\x1b[0m\n'}
+[0.900856] (-) TimerEvent: {}
+[0.930603] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ouster_sensor_msgs/libouster_sensor_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[0.960434] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 89%] Built target ouster_sensor_msgs__rosidl_generator_py\n'}
+[0.978215] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[0.978361] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[0.978401] (ouster_sensor_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.000954] (-) TimerEvent: {}
+[1.098764] (ouster_sensor_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.098957] (ouster_sensor_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.099020] (ouster_sensor_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.101040] (-) TimerEvent: {}
+[1.126402] (ouster_sensor_msgs) StdoutLine: {'line': b'[100%] Built target ouster_sensor_msgs__rosidl_typesupport_c__pyext\n'}
+[1.126595] (ouster_sensor_msgs) StdoutLine: {'line': b'[100%] Built target ouster_sensor_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.126653] (ouster_sensor_msgs) StdoutLine: {'line': b'[100%] Built target ouster_sensor_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.134431] (ouster_sensor_msgs) CommandEnded: {'returncode': 0}
+[1.201132] (-) TimerEvent: {}
+[1.243008] (ouster_sensor_msgs) JobProgress: {'identifier': 'ouster_sensor_msgs', 'progress': 'install'}
+[1.249776] (ouster_sensor_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/awadh/ouster_ws/build/ouster_sensor_msgs'], 'cwd': '/home/awadh/ouster_ws/build/ouster_sensor_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'awadh'), ('LC_TIME', 'en_IN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/awadh/zed_ws/install/zed_topic_benchmark_component/lib:/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces/lib:/home/awadh/zed_ws/install/zed_rgb_convert/lib:/home/awadh/zed_ws/install/zed_aruco_localization/lib:/home/awadh/zed_ws/install/zed_components/lib:/home/awadh/zed_ws/install/rviz_plugin_zed_od/lib:/home/awadh/zed_ws/install/zed_interfaces/lib:/home/awadh/ouster_ws/install/ouster_ros/lib:/home/awadh/ouster_ws/install/ouster_sensor_msgs/lib:/home/awadh/ros2_ws/install/my_robot_interfaces/lib:/home/awadh/sick_tim_ws/install/sick_tim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/awadh'), ('OLDPWD', '/home/awadh'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_IN.UTF-8'), ('MANAGERPID', '3038'), ('SYSTEMD_EXEC_PID', '3488'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6663'), ('COLCON_PREFIX_PATH', '/home/awadh/zed_ws/install:/home/awadh/ouster_ws/install:/home/awadh/sick_tim_ws/install:/home/awadh/ros2_ws/install:/home/awadh/gazebo_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'awadh'), ('JOURNAL_STREAM', '8:28380'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'awadh'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models::/home/awadh/.gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/awadh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/awadh:@/tmp/.ICE-unix/3469,unix/awadh:/tmp/.ICE-unix/3469'), ('INVOCATION_ID', '224fc21b5ca14a1eb2884819d0e4e33c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_IN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/awadh/gazebo_ws/install/my_robo_bringup:/home/awadh/gazebo_ws/install/my_robo_description:/home/awadh/zed_ws/install/zed_ros2:/home/awadh/zed_ws/install/zed_robot_integration:/home/awadh/zed_ws/install/zed_multi_camera:/home/awadh/zed_ws/install/zed_display_rviz2:/home/awadh/zed_ws/install/zed_depth_to_laserscan:/home/awadh/zed_ws/install/zed_wrapper:/home/awadh/zed_ws/install/zed_tutorial_video:/home/awadh/zed_ws/install/zed_tutorial_pos_tracking:/home/awadh/zed_ws/install/zed_tutorial_depth:/home/awadh/zed_ws/install/zed_topic_benchmark:/home/awadh/zed_ws/install/zed_topic_benchmark_component:/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces:/home/awadh/zed_ws/install/zed_rgb_convert:/home/awadh/zed_ws/install/zed_aruco_localization:/home/awadh/zed_ws/install/zed_components:/home/awadh/zed_ws/install/rviz_plugin_zed_od:/home/awadh/zed_ws/install/zed_interfaces:/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/sick_tim_ws/install/sick_tim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c63d7d1f-d7c7-46bf-9a2f-e0414e328f73'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_IN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_IN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/awadh/ouster_ws/build/ouster_sensor_msgs'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages:/home/awadh/zed_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:/home/awadh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/awadh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/awadh/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN.UTF-8'), ('LC_PAPER', 'en_IN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/awadh/gazebo_ws/install/my_robo_bringup:/home/awadh/gazebo_ws/install/my_robo_description:/home/awadh/zed_ws/install/zed_ros2:/home/awadh/zed_ws/install/zed_robot_integration:/home/awadh/zed_ws/install/zed_multi_camera:/home/awadh/zed_ws/install/zed_display_rviz2:/home/awadh/zed_ws/install/zed_depth_to_laserscan:/home/awadh/zed_ws/install/zed_wrapper:/home/awadh/zed_ws/install/zed_tutorial_video:/home/awadh/zed_ws/install/zed_tutorial_pos_tracking:/home/awadh/zed_ws/install/zed_tutorial_depth:/home/awadh/zed_ws/install/zed_topic_benchmark:/home/awadh/zed_ws/install/zed_topic_benchmark_component:/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces:/home/awadh/zed_ws/install/zed_rgb_convert:/home/awadh/zed_ws/install/zed_aruco_localization:/home/awadh/zed_ws/install/zed_components:/home/awadh/zed_ws/install/rviz_plugin_zed_od:/home/awadh/zed_ws/install/zed_interfaces:/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/awadh/sick_tim_ws/install/sick_tim')]), 'shell': False}
+[1.257499] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[1.258068] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.258314] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ament_index/resource_index/rosidl_interfaces/ouster_sensor_msgs\n'}
+[1.259483] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__functions.h\n'}
+[1.259584] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__struct.h\n'}
+[1.259719] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__type_support.h\n'}
+[1.259857] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/packet_msg.h\n'}
+[1.259934] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.260315] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__functions.h\n'}
+[1.260375] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__struct.h\n'}
+[1.260519] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__type_support.h\n'}
+[1.260614] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__functions.h\n'}
+[1.260749] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__struct.h\n'}
+[1.260880] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__type_support.h\n'}
+[1.261019] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__functions.h\n'}
+[1.261161] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__struct.h\n'}
+[1.261298] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__type_support.h\n'}
+[1.261427] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_config.h\n'}
+[1.261561] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_metadata.h\n'}
+[1.261698] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/set_config.h\n'}
+[1.261872] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/library_path.sh\n'}
+[1.261942] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/library_path.dsv\n'}
+[1.262331] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[1.262442] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.262582] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__rosidl_typesupport_fastrtps_c.h\n'}
+[1.262736] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__rosidl_typesupport_fastrtps_c.h\n'}
+[1.262862] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__rosidl_typesupport_fastrtps_c.h\n'}
+[1.263220] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__builder.hpp\n'}
+[1.263330] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__struct.hpp\n'}
+[1.263474] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__traits.hpp\n'}
+[1.263607] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/packet_msg.hpp\n'}
+[1.263763] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__builder.hpp\n'}
+[1.263975] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__struct.hpp\n'}
+[1.264115] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__traits.hpp\n'}
+[1.264254] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__builder.hpp\n'}
+[1.264384] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__struct.hpp\n'}
+[1.264524] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__traits.hpp\n'}
+[1.264670] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__builder.hpp\n'}
+[1.264789] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__struct.hpp\n'}
+[1.264928] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__traits.hpp\n'}
+[1.265093] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_config.hpp\n'}
+[1.265219] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_metadata.hpp\n'}
+[1.265359] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/set_config.hpp\n'}
+[1.265796] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.265908] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.266064] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.266210] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.266360] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.266703] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__rosidl_typesupport_introspection_c.h\n'}
+[1.266802] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.266930] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__rosidl_typesupport_introspection_c.h\n'}
+[1.267067] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__rosidl_typesupport_introspection_c.h\n'}
+[1.267225] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__rosidl_typesupport_introspection_c.h\n'}
+[1.267517] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.267653] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.267819] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.267937] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.268100] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/pythonpath.sh\n'}
+[1.268186] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/pythonpath.dsv\n'}
+[1.268329] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.12.2-py3.10.egg-info/PKG-INFO\n'}
+[1.268457] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.12.2-py3.10.egg-info/SOURCES.txt\n'}
+[1.268624] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.12.2-py3.10.egg-info/dependency_links.txt\n'}
+[1.268757] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.12.2-py3.10.egg-info/top_level.txt\n'}
+[1.269342] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/__init__.py\n'}
+[1.269470] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.269651] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.269802] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.269944] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/libouster_sensor_msgs__rosidl_generator_py.so\n'}
+[1.270137] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg/__init__.py\n'}
+[1.270298] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg/_packet_msg.py\n'}
+[1.270427] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg/_packet_msg_s.c\n'}
+[1.270585] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.270715] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.270844] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.271079] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/__init__.py\n'}
+[1.271191] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_config.py\n'}
+[1.271415] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_config_s.c\n'}
+[1.271563] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_metadata.py\n'}
+[1.271715] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_metadata_s.c\n'}
+[1.271821] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_set_config.py\n'}
+[1.271854] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_set_config_s.c\n'}
+[1.272024] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.272232] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.272440] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.272569] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/msg/PacketMsg.idl\n'}
+[1.272681] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetConfig.idl\n'}
+[1.272773] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/SetConfig.idl\n'}
+[1.272864] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetMetadata.idl\n'}
+[1.272957] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/msg/PacketMsg.msg\n'}
+[1.273044] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetConfig.srv\n'}
+[1.273131] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetConfig_Request.msg\n'}
+[1.273234] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetConfig_Response.msg\n'}
+[1.273320] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/SetConfig.srv\n'}
+[1.273414] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/SetConfig_Request.msg\n'}
+[1.273502] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/SetConfig_Response.msg\n'}
+[1.273593] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetMetadata.srv\n'}
+[1.273684] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetMetadata_Request.msg\n'}
+[1.273775] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetMetadata_Response.msg\n'}
+[1.273854] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ament_index/resource_index/package_run_dependencies/ouster_sensor_msgs\n'}
+[1.273979] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ament_index/resource_index/parent_prefix_path/ouster_sensor_msgs\n'}
+[1.274093] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/ament_prefix_path.sh\n'}
+[1.274142] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/ament_prefix_path.dsv\n'}
+[1.274299] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/path.sh\n'}
+[1.274368] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/path.dsv\n'}
+[1.274519] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/local_setup.bash\n'}
+[1.274665] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/local_setup.sh\n'}
+[1.274829] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/local_setup.zsh\n'}
+[1.274874] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/local_setup.dsv\n'}
+[1.274927] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Symlinking: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/package.dsv\n'}
+[1.281003] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ament_index/resource_index/packages/ouster_sensor_msgs\n'}
+[1.281210] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.281378] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.281552] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.281691] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.281847] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.282005] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.282231] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.282377] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgsConfig.cmake\n'}
+[1.282506] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgsConfig-version.cmake\n'}
+[1.282672] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/package.xml\n'}
+[1.283119] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_generator_c.so\n'}
+[1.283515] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Installing: /home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.283668] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[1.283744] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Installing: /home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.283933] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[1.284266] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.284648] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_c.so\n'}
+[1.285009] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Installing: /home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.285265] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[1.285344] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Installing: /home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_cpp.so\n'}
+[1.285472] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[1.301188] (-) TimerEvent: {}
+[1.307549] (ouster_sensor_msgs) StdoutLine: {'line': b"Listing '/home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs'...\n"}
+[1.307613] (ouster_sensor_msgs) StdoutLine: {'line': b"Listing '/home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg'...\n"}
+[1.307645] (ouster_sensor_msgs) StdoutLine: {'line': b"Listing '/home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv'...\n"}
+[1.310339] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Installing: /home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_generator_py.so\n'}
+[1.310395] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/awadh/ouster_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_generator_py.so" to ""\n'}
+[1.310985] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_cExport.cmake\n'}
+[1.311022] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_cExport-release.cmake\n'}
+[1.311138] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.311184] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[1.311478] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.311771] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.311805] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[1.311969] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.312002] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[1.312178] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.312218] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_cExport-release.cmake\n'}
+[1.312427] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.312460] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[1.312661] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.312698] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_cppExport-release.cmake\n'}
+[1.312901] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.312933] (ouster_sensor_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_pyExport-release.cmake\n'}
+[1.314258] (ouster_sensor_msgs) CommandEnded: {'returncode': 0}
+[1.401271] (-) TimerEvent: {}
+[1.436365] (ouster_sensor_msgs) JobEnded: {'identifier': 'ouster_sensor_msgs', 'rc': 0}
+[1.436957] (ouster_ros) JobStarted: {'identifier': 'ouster_ros'}
+[1.444892] (ouster_ros) JobProgress: {'identifier': 'ouster_ros', 'progress': 'cmake'}
+[1.445532] (ouster_ros) JobProgress: {'identifier': 'ouster_ros', 'progress': 'build'}
+[1.445686] (ouster_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/awadh/ouster_ws/build/ouster_ros', '--', '-j16', '-l16'], 'cwd': '/home/awadh/ouster_ws/build/ouster_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'awadh'), ('LC_TIME', 'en_IN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/awadh/ouster_ws/install/ouster_sensor_msgs/lib:/home/awadh/zed_ws/install/zed_topic_benchmark_component/lib:/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces/lib:/home/awadh/zed_ws/install/zed_rgb_convert/lib:/home/awadh/zed_ws/install/zed_aruco_localization/lib:/home/awadh/zed_ws/install/zed_components/lib:/home/awadh/zed_ws/install/rviz_plugin_zed_od/lib:/home/awadh/zed_ws/install/zed_interfaces/lib:/home/awadh/ouster_ws/install/ouster_ros/lib:/home/awadh/ros2_ws/install/my_robot_interfaces/lib:/home/awadh/sick_tim_ws/install/sick_tim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/awadh'), ('OLDPWD', '/home/awadh'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_IN.UTF-8'), ('MANAGERPID', '3038'), ('SYSTEMD_EXEC_PID', '3488'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6663'), ('COLCON_PREFIX_PATH', '/home/awadh/zed_ws/install:/home/awadh/ouster_ws/install:/home/awadh/sick_tim_ws/install:/home/awadh/ros2_ws/install:/home/awadh/gazebo_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'awadh'), ('JOURNAL_STREAM', '8:28380'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'awadh'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models::/home/awadh/.gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/awadh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/awadh:@/tmp/.ICE-unix/3469,unix/awadh:/tmp/.ICE-unix/3469'), ('INVOCATION_ID', '224fc21b5ca14a1eb2884819d0e4e33c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_IN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/awadh/gazebo_ws/install/my_robo_bringup:/home/awadh/gazebo_ws/install/my_robo_description:/home/awadh/zed_ws/install/zed_ros2:/home/awadh/zed_ws/install/zed_robot_integration:/home/awadh/zed_ws/install/zed_multi_camera:/home/awadh/zed_ws/install/zed_display_rviz2:/home/awadh/zed_ws/install/zed_depth_to_laserscan:/home/awadh/zed_ws/install/zed_wrapper:/home/awadh/zed_ws/install/zed_tutorial_video:/home/awadh/zed_ws/install/zed_tutorial_pos_tracking:/home/awadh/zed_ws/install/zed_tutorial_depth:/home/awadh/zed_ws/install/zed_topic_benchmark:/home/awadh/zed_ws/install/zed_topic_benchmark_component:/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces:/home/awadh/zed_ws/install/zed_rgb_convert:/home/awadh/zed_ws/install/zed_aruco_localization:/home/awadh/zed_ws/install/zed_components:/home/awadh/zed_ws/install/rviz_plugin_zed_od:/home/awadh/zed_ws/install/zed_interfaces:/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/sick_tim_ws/install/sick_tim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c63d7d1f-d7c7-46bf-9a2f-e0414e328f73'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_IN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_IN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/awadh/ouster_ws/build/ouster_ros'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages:/home/awadh/zed_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:/home/awadh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/awadh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/awadh/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN.UTF-8'), ('LC_PAPER', 'en_IN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/gazebo_ws/install/my_robo_bringup:/home/awadh/gazebo_ws/install/my_robo_description:/home/awadh/zed_ws/install/zed_ros2:/home/awadh/zed_ws/install/zed_robot_integration:/home/awadh/zed_ws/install/zed_multi_camera:/home/awadh/zed_ws/install/zed_display_rviz2:/home/awadh/zed_ws/install/zed_depth_to_laserscan:/home/awadh/zed_ws/install/zed_wrapper:/home/awadh/zed_ws/install/zed_tutorial_video:/home/awadh/zed_ws/install/zed_tutorial_pos_tracking:/home/awadh/zed_ws/install/zed_tutorial_depth:/home/awadh/zed_ws/install/zed_topic_benchmark:/home/awadh/zed_ws/install/zed_topic_benchmark_component:/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces:/home/awadh/zed_ws/install/zed_rgb_convert:/home/awadh/zed_ws/install/zed_aruco_localization:/home/awadh/zed_ws/install/zed_components:/home/awadh/zed_ws/install/rviz_plugin_zed_od:/home/awadh/zed_ws/install/zed_interfaces:/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/awadh/sick_tim_ws/install/sick_tim')]), 'shell': False}
+[1.496524] (ouster_ros) StdoutLine: {'line': b'\x1b[34m\x1b[1mGenerating build info header\x1b[0m\n'}
+[1.498974] (ouster_ros) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[1.499397] (ouster_ros) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[1.501355] (-) TimerEvent: {}
+[1.506257] (ouster_ros) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/os_driver.dir/rclcpp_components/node_main_os_driver.cpp.o\x1b[0m\n'}
+[1.506469] (ouster_ros) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/os_replay.dir/rclcpp_components/node_main_os_replay.cpp.o\x1b[0m\n'}
+[1.506551] (ouster_ros) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/os_image.dir/rclcpp_components/node_main_os_image.cpp.o\x1b[0m\n'}
+[1.506614] (ouster_ros) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o\x1b[0m\n'}
+[1.506704] (ouster_ros) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/os_cloud.dir/rclcpp_components/node_main_os_cloud.cpp.o\x1b[0m\n'}
+[1.532213] (ouster_ros) StdoutLine: {'line': b'[ 13%] Built target ouster_generate_header\n'}
+[1.561057] (ouster_ros) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/client.cpp.o\x1b[0m\n'}
+[1.561393] (ouster_ros) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_info.cpp.o\x1b[0m\n'}
+[1.561481] (ouster_ros) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/lidar_scan.cpp.o\x1b[0m\n'}
+[1.562187] (ouster_ros) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/buffered_udp_source.cpp.o\x1b[0m\n'}
+[1.562832] (ouster_ros) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/types.cpp.o\x1b[0m\n'}
+[1.563244] (ouster_ros) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/image_processing.cpp.o\x1b[0m\n'}
+[1.563574] (ouster_ros) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/netcompat.cpp.o\x1b[0m\n'}
+[1.572027] (ouster_ros) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http.cpp.o\x1b[0m\n'}
+[1.572565] (ouster_ros) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/parsing.cpp.o\x1b[0m\n'}
+[1.601482] (-) TimerEvent: {}
+[1.701982] (-) TimerEvent: {}
+[1.802464] (-) TimerEvent: {}
+[1.835699] (ouster_ros) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http_imp.cpp.o\x1b[0m\n'}
+[1.902616] (-) TimerEvent: {}
+[2.003044] (-) TimerEvent: {}
+[2.103543] (-) TimerEvent: {}
+[2.203944] (-) TimerEvent: {}
+[2.304376] (-) TimerEvent: {}
+[2.404830] (-) TimerEvent: {}
+[2.505246] (-) TimerEvent: {}
+[2.571644] (ouster_ros) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[2.605397] (-) TimerEvent: {}
+[2.618920] (ouster_ros) StdoutLine: {'line': b'[ 33%] Built target gtest_main\n'}
+[2.631989] (ouster_ros) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_tcp_imp.cpp.o\x1b[0m\n'}
+[2.705534] (-) TimerEvent: {}
+[2.806000] (-) TimerEvent: {}
+[2.865403] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kuint32_t ouster::sensor::packet_format::frame_id(const uint8_t*) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.865746] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:443:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint16_t ouster::sensor::packet_format::col_frame_id(const uint8_t*) const\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use frame_id instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.865834] (ouster_ros) StderrLine: {'line': b'  443 |         return \x1b[01;35m\x1b[Kcol_frame_id(nth_col(0, lidar_buf))\x1b[m\x1b[K;\n'}
+[2.865899] (ouster_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.865959] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/impl/packet_writer.h:8\x1b[m\x1b[K,\n'}
+[2.866023] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:18\x1b[m\x1b[K:\n'}
+[2.866086] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:1102:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.866147] (ouster_ros) StderrLine: {'line': b' 1102 |     [[deprecated("Use frame_id instead")]] uint16_t \x1b[01;36m\x1b[Kcol_frame_id\x1b[m\x1b[K(\n'}
+[2.866207] (ouster_ros) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.906167] (-) TimerEvent: {}
+[3.006655] (-) TimerEvent: {}
+[3.107208] (-) TimerEvent: {}
+[3.207671] (-) TimerEvent: {}
+[3.259435] (ouster_ros) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/logging.cpp.o\x1b[0m\n'}
+[3.307802] (-) TimerEvent: {}
+[3.408292] (-) TimerEvent: {}
+[3.508818] (-) TimerEvent: {}
+[3.609312] (-) TimerEvent: {}
+[3.709765] (-) TimerEvent: {}
+[3.810209] (-) TimerEvent: {}
+[3.910667] (-) TimerEvent: {}
+[4.011097] (-) TimerEvent: {}
+[4.111542] (-) TimerEvent: {}
+[4.211998] (-) TimerEvent: {}
+[4.312440] (-) TimerEvent: {}
+[4.412898] (-) TimerEvent: {}
+[4.513403] (-) TimerEvent: {}
+[4.533254] (ouster_ros) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/profile_extension.cpp.o\x1b[0m\n'}
+[4.548942] (ouster_ros) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/util.cpp.o\x1b[0m\n'}
+[4.613538] (-) TimerEvent: {}
+[4.713962] (-) TimerEvent: {}
+[4.814407] (-) TimerEvent: {}
+[4.914859] (-) TimerEvent: {}
+[5.015341] (-) TimerEvent: {}
+[5.115766] (-) TimerEvent: {}
+[5.216193] (-) TimerEvent: {}
+[5.316593] (-) TimerEvent: {}
+[5.417014] (-) TimerEvent: {}
+[5.517430] (-) TimerEvent: {}
+[5.617868] (-) TimerEvent: {}
+[5.718285] (-) TimerEvent: {}
+[5.818703] (-) TimerEvent: {}
+[5.919113] (-) TimerEvent: {}
+[5.953955] (ouster_ros) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX executable os_sensor\x1b[0m\n'}
+[5.957370] (ouster_ros) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX executable os_replay\x1b[0m\n'}
+[5.971344] (ouster_ros) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX executable os_image\x1b[0m\n'}
+[6.019344] (-) TimerEvent: {}
+[6.056248] (ouster_ros) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX executable os_driver\x1b[0m\n'}
+[6.119488] (-) TimerEvent: {}
+[6.157108] (ouster_ros) StdoutLine: {'line': b'[ 49%] Built target os_replay\n'}
+[6.162086] (ouster_ros) StdoutLine: {'line': b'[ 49%] Built target os_sensor\n'}
+[6.169151] (ouster_ros) StdoutLine: {'line': b'[ 49%] Built target os_image\n'}
+[6.219626] (-) TimerEvent: {}
+[6.221744] (ouster_ros) StdoutLine: {'line': b'[ 49%] Built target os_driver\n'}
+[6.293132] (ouster_ros) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable os_cloud\x1b[0m\n'}
+[6.319756] (-) TimerEvent: {}
+[6.373170] (ouster_ros) StdoutLine: {'line': b'[ 50%] Built target os_cloud\n'}
+[6.419879] (-) TimerEvent: {}
+[6.520257] (-) TimerEvent: {}
+[6.620642] (-) TimerEvent: {}
+[6.721025] (-) TimerEvent: {}
+[6.821398] (-) TimerEvent: {}
+[6.921749] (-) TimerEvent: {}
+[7.022105] (-) TimerEvent: {}
+[7.122456] (-) TimerEvent: {}
+[7.222804] (-) TimerEvent: {}
+[7.323155] (-) TimerEvent: {}
+[7.423519] (-) TimerEvent: {}
+[7.523859] (-) TimerEvent: {}
+[7.624277] (-) TimerEvent: {}
+[7.724631] (-) TimerEvent: {}
+[7.824985] (-) TimerEvent: {}
+[7.925368] (-) TimerEvent: {}
+[8.025741] (-) TimerEvent: {}
+[8.126139] (-) TimerEvent: {}
+[8.226501] (-) TimerEvent: {}
+[8.326821] (-) TimerEvent: {}
+[8.427156] (-) TimerEvent: {}
+[8.527458] (-) TimerEvent: {}
+[8.627718] (-) TimerEvent: {}
+[8.656830] (ouster_ros) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[8.683050] (ouster_ros) StdoutLine: {'line': b'[ 52%] Built target gtest\n'}
+[8.727814] (-) TimerEvent: {}
+[8.828045] (-) TimerEvent: {}
+[8.928307] (-) TimerEvent: {}
+[8.994606] (ouster_ros) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX static library libouster_client.a\x1b[0m\n'}
+[9.028423] (-) TimerEvent: {}
+[9.028627] (ouster_ros) StdoutLine: {'line': b'[ 54%] Built target ouster_client\n'}
+[9.061547] (ouster_ros) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/ouster_ros_library.dir/src/os_ros.cpp.o\x1b[0m\n'}
+[9.128509] (-) TimerEvent: {}
+[9.228741] (-) TimerEvent: {}
+[9.329048] (-) TimerEvent: {}
+[9.429366] (-) TimerEvent: {}
+[9.529669] (-) TimerEvent: {}
+[9.629958] (-) TimerEvent: {}
+[9.730218] (-) TimerEvent: {}
+[9.830485] (-) TimerEvent: {}
+[9.930788] (-) TimerEvent: {}
+[10.031108] (-) TimerEvent: {}
+[10.131440] (-) TimerEvent: {}
+[10.231757] (-) TimerEvent: {}
+[10.332081] (-) TimerEvent: {}
+[10.432401] (-) TimerEvent: {}
+[10.532735] (-) TimerEvent: {}
+[10.633019] (-) TimerEvent: {}
+[10.733272] (-) TimerEvent: {}
+[10.833593] (-) TimerEvent: {}
+[10.933915] (-) TimerEvent: {}
+[11.034245] (-) TimerEvent: {}
+[11.134585] (-) TimerEvent: {}
+[11.234924] (-) TimerEvent: {}
+[11.335270] (-) TimerEvent: {}
+[11.435552] (-) TimerEvent: {}
+[11.535839] (-) TimerEvent: {}
+[11.636124] (-) TimerEvent: {}
+[11.736414] (-) TimerEvent: {}
+[11.836738] (-) TimerEvent: {}
+[11.937071] (-) TimerEvent: {}
+[12.037394] (-) TimerEvent: {}
+[12.137735] (-) TimerEvent: {}
+[12.238064] (-) TimerEvent: {}
+[12.338402] (-) TimerEvent: {}
+[12.438735] (-) TimerEvent: {}
+[12.539069] (-) TimerEvent: {}
+[12.639409] (-) TimerEvent: {}
+[12.739735] (-) TimerEvent: {}
+[12.840001] (-) TimerEvent: {}
+[12.940274] (-) TimerEvent: {}
+[13.040530] (-) TimerEvent: {}
+[13.140854] (-) TimerEvent: {}
+[13.241175] (-) TimerEvent: {}
+[13.341516] (-) TimerEvent: {}
+[13.441858] (-) TimerEvent: {}
+[13.542199] (-) TimerEvent: {}
+[13.642546] (-) TimerEvent: {}
+[13.742885] (-) TimerEvent: {}
+[13.843233] (-) TimerEvent: {}
+[13.943520] (-) TimerEvent: {}
+[14.043806] (-) TimerEvent: {}
+[14.144095] (-) TimerEvent: {}
+[14.244409] (-) TimerEvent: {}
+[14.344733] (-) TimerEvent: {}
+[14.445048] (-) TimerEvent: {}
+[14.545373] (-) TimerEvent: {}
+[14.645690] (-) TimerEvent: {}
+[14.746013] (-) TimerEvent: {}
+[14.846321] (-) TimerEvent: {}
+[14.946615] (-) TimerEvent: {}
+[15.046904] (-) TimerEvent: {}
+[15.147192] (-) TimerEvent: {}
+[15.247464] (-) TimerEvent: {}
+[15.347690] (-) TimerEvent: {}
+[15.447915] (-) TimerEvent: {}
+[15.548163] (-) TimerEvent: {}
+[15.648390] (-) TimerEvent: {}
+[15.748620] (-) TimerEvent: {}
+[15.848851] (-) TimerEvent: {}
+[15.949109] (-) TimerEvent: {}
+[15.957126] (ouster_ros) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libouster_ros_library.so\x1b[0m\n'}
+[16.049275] (-) TimerEvent: {}
+[16.077570] (ouster_ros) StdoutLine: {'line': b'[ 58%] Built target ouster_ros_library\n'}
+[16.102190] (ouster_ros) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_replay_node.cpp.o\x1b[0m\n'}
+[16.102477] (ouster_ros) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_sensor_node_base.cpp.o\x1b[0m\n'}
+[16.102616] (ouster_ros) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_processing_node_base.cpp.o\x1b[0m\n'}
+[16.102697] (ouster_ros) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node_base.cpp.o\x1b[0m\n'}
+[16.102757] (ouster_ros) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_processing_node_base.cpp.o\x1b[0m\n'}
+[16.104263] (ouster_ros) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node.cpp.o\x1b[0m\n'}
+[16.105132] (ouster_ros) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_sensor_node_base.cpp.o\x1b[0m\n'}
+[16.105387] (ouster_ros) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_sensor_node.cpp.o\x1b[0m\n'}
+[16.106829] (ouster_ros) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/ring_buffer_test.cpp.o\x1b[0m\n'}
+[16.108162] (ouster_ros) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/src/os_ros.cpp.o\x1b[0m\n'}
+[16.115497] (ouster_ros) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_accessor_test.cpp.o\x1b[0m\n'}
+[16.115791] (ouster_ros) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_driver_node.cpp.o\x1b[0m\n'}
+[16.115870] (ouster_ros) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_image_node.cpp.o\x1b[0m\n'}
+[16.115934] (ouster_ros) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_transform_test.cpp.o\x1b[0m\n'}
+[16.116043] (ouster_ros) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_cloud_node.cpp.o\x1b[0m\n'}
+[16.117253] (ouster_ros) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_cloud_compose_test.cpp.o\x1b[0m\n'}
+[16.149391] (-) TimerEvent: {}
+[16.249858] (-) TimerEvent: {}
+[16.350241] (-) TimerEvent: {}
+[16.450607] (-) TimerEvent: {}
+[16.551006] (-) TimerEvent: {}
+[16.651477] (-) TimerEvent: {}
+[16.752174] (-) TimerEvent: {}
+[16.852618] (-) TimerEvent: {}
+[16.953004] (-) TimerEvent: {}
+[17.053396] (-) TimerEvent: {}
+[17.153759] (-) TimerEvent: {}
+[17.254155] (-) TimerEvent: {}
+[17.354627] (-) TimerEvent: {}
+[17.455031] (-) TimerEvent: {}
+[17.555496] (-) TimerEvent: {}
+[17.655960] (-) TimerEvent: {}
+[17.756402] (-) TimerEvent: {}
+[17.856865] (-) TimerEvent: {}
+[17.957336] (-) TimerEvent: {}
+[18.057806] (-) TimerEvent: {}
+[18.158314] (-) TimerEvent: {}
+[18.258900] (-) TimerEvent: {}
+[18.359506] (-) TimerEvent: {}
+[18.459935] (-) TimerEvent: {}
+[18.560416] (-) TimerEvent: {}
+[18.660902] (-) TimerEvent: {}
+[18.761356] (-) TimerEvent: {}
+[18.861834] (-) TimerEvent: {}
+[18.962336] (-) TimerEvent: {}
+[19.062803] (-) TimerEvent: {}
+[19.163290] (-) TimerEvent: {}
+[19.263731] (-) TimerEvent: {}
+[19.364180] (-) TimerEvent: {}
+[19.464625] (-) TimerEvent: {}
+[19.565071] (-) TimerEvent: {}
+[19.665497] (-) TimerEvent: {}
+[19.765938] (-) TimerEvent: {}
+[19.866387] (-) TimerEvent: {}
+[19.966839] (-) TimerEvent: {}
+[20.067306] (-) TimerEvent: {}
+[20.167751] (-) TimerEvent: {}
+[20.268213] (-) TimerEvent: {}
+[20.368665] (-) TimerEvent: {}
+[20.469152] (-) TimerEvent: {}
+[20.569691] (-) TimerEvent: {}
+[20.670202] (-) TimerEvent: {}
+[20.770957] (-) TimerEvent: {}
+[20.871676] (-) TimerEvent: {}
+[20.972430] (-) TimerEvent: {}
+[21.072941] (-) TimerEvent: {}
+[21.173448] (-) TimerEvent: {}
+[21.273954] (-) TimerEvent: {}
+[21.376748] (-) TimerEvent: {}
+[21.477189] (-) TimerEvent: {}
+[21.577862] (-) TimerEvent: {}
+[21.678352] (-) TimerEvent: {}
+[21.778809] (-) TimerEvent: {}
+[21.879303] (-) TimerEvent: {}
+[21.979754] (-) TimerEvent: {}
+[22.080237] (-) TimerEvent: {}
+[22.180658] (-) TimerEvent: {}
+[22.281076] (-) TimerEvent: {}
+[22.381482] (-) TimerEvent: {}
+[22.481905] (-) TimerEvent: {}
+[22.582319] (-) TimerEvent: {}
+[22.682756] (-) TimerEvent: {}
+[22.783195] (-) TimerEvent: {}
+[22.883755] (-) TimerEvent: {}
+[22.984206] (-) TimerEvent: {}
+[23.084596] (-) TimerEvent: {}
+[23.185174] (-) TimerEvent: {}
+[23.285621] (-) TimerEvent: {}
+[23.335183] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:23\x1b[m\x1b[K:\n'}
+[23.335586] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time(const ouster::sensor::packet_format&, const uint8_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.335693] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:224:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.335762] (ouster_ros) StderrLine: {'line': b'  224 |         if (!\x1b[01;35m\x1b[K(*scan_batcher)(lidar_buf, *lidar_scan)\x1b[m\x1b[K) return false;\n'}
+[23.335823] (ouster_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.335882] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16\x1b[m\x1b[K,\n'}
+[23.335939] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:17\x1b[m\x1b[K:\n'}
+[23.335995] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[23.336053] (ouster_ros) StderrLine: {'line': b'  532 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K()(const uint8_t* packet_buf, LidarScan& ls);\n'}
+[23.336107] (ouster_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.351617] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:23\x1b[m\x1b[K:\n'}
+[23.352029] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time_ptp(const ouster::sensor::packet_format&, const uint8_t*, int64_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.352183] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:233:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.352266] (ouster_ros) StderrLine: {'line': b'  233 |         if (!\x1b[01;35m\x1b[K(*scan_batcher)(lidar_buf, *lidar_scan)\x1b[m\x1b[K) return false;\n'}
+[23.352335] (ouster_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.352397] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16\x1b[m\x1b[K,\n'}
+[23.352464] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:17\x1b[m\x1b[K:\n'}
+[23.352530] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[23.352604] (ouster_ros) StderrLine: {'line': b'  532 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K()(const uint8_t* packet_buf, LidarScan& ls);\n'}
+[23.352662] (ouster_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.352803] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:23\x1b[m\x1b[K:\n'}
+[23.352885] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ouster_ros::LidarPacketHandler::lidar_handler_ros_time(const ouster::sensor::packet_format&, const uint8_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.352953] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:250:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.353020] (ouster_ros) StderrLine: {'line': b'  250 |         if (!\x1b[01;35m\x1b[K(*scan_batcher)(lidar_buf, *lidar_scan)\x1b[m\x1b[K) return false;\n'}
+[23.353080] (ouster_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.353138] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16\x1b[m\x1b[K,\n'}
+[23.353201] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:17\x1b[m\x1b[K:\n'}
+[23.353259] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[23.353316] (ouster_ros) StderrLine: {'line': b'  532 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K()(const uint8_t* packet_buf, LidarScan& ls);\n'}
+[23.353372] (ouster_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.385763] (-) TimerEvent: {}
+[23.486270] (-) TimerEvent: {}
+[23.542946] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[23.543326] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:50:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.543433] (ouster_ros) StderrLine: {'line': b'   50 |     void metadata_handler(const std_msgs::msg::String::ConstPtr& metadata_msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K {\n'}
+[23.543505] (ouster_ros) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.543569] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7\x1b[m\x1b[K,\n'}
+[23.543629] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:14\x1b[m\x1b[K,\n'}
+[23.543690] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:21\x1b[m\x1b[K:\n'}
+[23.543749] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[23.543805] (ouster_ros) StderrLine: {'line': b'  105 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[23.543866] (ouster_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.565599] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:24\x1b[m\x1b[K:\n'}
+[23.565895] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time(const ouster::sensor::packet_format&, const uint8_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.565971] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:224:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.566052] (ouster_ros) StderrLine: {'line': b'  224 |         if (!\x1b[01;35m\x1b[K(*scan_batcher)(lidar_buf, *lidar_scan)\x1b[m\x1b[K) return false;\n'}
+[23.566115] (ouster_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.566174] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16\x1b[m\x1b[K,\n'}
+[23.566228] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12\x1b[m\x1b[K:\n'}
+[23.566293] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[23.566350] (ouster_ros) StderrLine: {'line': b'  532 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K()(const uint8_t* packet_buf, LidarScan& ls);\n'}
+[23.566407] (ouster_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.581419] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:24\x1b[m\x1b[K:\n'}
+[23.581777] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time_ptp(const ouster::sensor::packet_format&, const uint8_t*, int64_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.581879] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:233:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.581952] (ouster_ros) StderrLine: {'line': b'  233 |         if (!\x1b[01;35m\x1b[K(*scan_batcher)(lidar_buf, *lidar_scan)\x1b[m\x1b[K) return false;\n'}
+[23.582017] (ouster_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.582078] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16\x1b[m\x1b[K,\n'}
+[23.582138] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12\x1b[m\x1b[K:\n'}
+[23.582203] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[23.582262] (ouster_ros) StderrLine: {'line': b'  532 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K()(const uint8_t* packet_buf, LidarScan& ls);\n'}
+[23.582324] (ouster_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.582452] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:24\x1b[m\x1b[K:\n'}
+[23.582533] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ouster_ros::LidarPacketHandler::lidar_handler_ros_time(const ouster::sensor::packet_format&, const uint8_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.582598] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:250:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.582666] (ouster_ros) StderrLine: {'line': b'  250 |         if (!\x1b[01;35m\x1b[K(*scan_batcher)(lidar_buf, *lidar_scan)\x1b[m\x1b[K) return false;\n'}
+[23.582726] (ouster_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.582790] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16\x1b[m\x1b[K,\n'}
+[23.582850] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12\x1b[m\x1b[K:\n'}
+[23.582916] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[23.582995] (ouster_ros) StderrLine: {'line': b'  532 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K()(const uint8_t* packet_buf, LidarScan& ls);\n'}
+[23.583058] (ouster_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.586371] (-) TimerEvent: {}
+[23.686886] (-) TimerEvent: {}
+[23.787475] (-) TimerEvent: {}
+[23.888002] (-) TimerEvent: {}
+[23.988563] (-) TimerEvent: {}
+[24.088996] (-) TimerEvent: {}
+[24.189426] (-) TimerEvent: {}
+[24.289844] (-) TimerEvent: {}
+[24.348036] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:20\x1b[m\x1b[K:\n'}
+[24.348334] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time(const ouster::sensor::packet_format&, const uint8_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.348426] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:224:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.348511] (ouster_ros) StderrLine: {'line': b'  224 |         if (!\x1b[01;35m\x1b[K(*scan_batcher)(lidar_buf, *lidar_scan)\x1b[m\x1b[K) return false;\n'}
+[24.348581] (ouster_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.348647] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16\x1b[m\x1b[K,\n'}
+[24.348712] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:13\x1b[m\x1b[K:\n'}
+[24.348777] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[24.348841] (ouster_ros) StderrLine: {'line': b'  532 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K()(const uint8_t* packet_buf, LidarScan& ls);\n'}
+[24.348903] (ouster_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[24.365040] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:20\x1b[m\x1b[K:\n'}
+[24.365305] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time_ptp(const ouster::sensor::packet_format&, const uint8_t*, int64_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.365380] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:233:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.365439] (ouster_ros) StderrLine: {'line': b'  233 |         if (!\x1b[01;35m\x1b[K(*scan_batcher)(lidar_buf, *lidar_scan)\x1b[m\x1b[K) return false;\n'}
+[24.365516] (ouster_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.365572] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16\x1b[m\x1b[K,\n'}
+[24.365750] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:13\x1b[m\x1b[K:\n'}
+[24.365820] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[24.365878] (ouster_ros) StderrLine: {'line': b'  532 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K()(const uint8_t* packet_buf, LidarScan& ls);\n'}
+[24.365938] (ouster_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[24.366001] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:20\x1b[m\x1b[K:\n'}
+[24.366060] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ouster_ros::LidarPacketHandler::lidar_handler_ros_time(const ouster::sensor::packet_format&, const uint8_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.366125] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:250:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.366193] (ouster_ros) StderrLine: {'line': b'  250 |         if (!\x1b[01;35m\x1b[K(*scan_batcher)(lidar_buf, *lidar_scan)\x1b[m\x1b[K) return false;\n'}
+[24.366257] (ouster_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.366319] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16\x1b[m\x1b[K,\n'}
+[24.366383] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:13\x1b[m\x1b[K:\n'}
+[24.366448] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[24.366525] (ouster_ros) StderrLine: {'line': b'  532 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K()(const uint8_t* packet_buf, LidarScan& ls);\n'}
+[24.366589] (ouster_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[24.389997] (-) TimerEvent: {}
+[24.490453] (-) TimerEvent: {}
+[24.590959] (-) TimerEvent: {}
+[24.691474] (-) TimerEvent: {}
+[24.791904] (-) TimerEvent: {}
+[24.850012] (ouster_ros) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library libos_replay_component.so\x1b[0m\n'}
+[24.892032] (-) TimerEvent: {}
+[24.992475] (-) TimerEvent: {}
+[25.073734] (ouster_ros) StdoutLine: {'line': b'[ 90%] Built target os_replay_component\n'}
+[25.092588] (-) TimerEvent: {}
+[25.192936] (-) TimerEvent: {}
+[25.293350] (-) TimerEvent: {}
+[25.393772] (-) TimerEvent: {}
+[25.494206] (-) TimerEvent: {}
+[25.594681] (-) TimerEvent: {}
+[25.695091] (-) TimerEvent: {}
+[25.795508] (-) TimerEvent: {}
+[25.895920] (-) TimerEvent: {}
+[25.996345] (-) TimerEvent: {}
+[26.096740] (-) TimerEvent: {}
+[26.197152] (-) TimerEvent: {}
+[26.297564] (-) TimerEvent: {}
+[26.397938] (-) TimerEvent: {}
+[26.498378] (-) TimerEvent: {}
+[26.598787] (-) TimerEvent: {}
+[26.699191] (-) TimerEvent: {}
+[26.799533] (-) TimerEvent: {}
+[26.899900] (-) TimerEvent: {}
+[27.000257] (-) TimerEvent: {}
+[27.100629] (-) TimerEvent: {}
+[27.201022] (-) TimerEvent: {}
+[27.301442] (-) TimerEvent: {}
+[27.401819] (-) TimerEvent: {}
+[27.502204] (-) TimerEvent: {}
+[27.602595] (-) TimerEvent: {}
+[27.702998] (-) TimerEvent: {}
+[27.803375] (-) TimerEvent: {}
+[27.903779] (-) TimerEvent: {}
+[28.004180] (-) TimerEvent: {}
+[28.104566] (-) TimerEvent: {}
+[28.204912] (-) TimerEvent: {}
+[28.305267] (-) TimerEvent: {}
+[28.405654] (-) TimerEvent: {}
+[28.506123] (-) TimerEvent: {}
+[28.606531] (-) TimerEvent: {}
+[28.706935] (-) TimerEvent: {}
+[28.807349] (-) TimerEvent: {}
+[28.907816] (-) TimerEvent: {}
+[29.008244] (-) TimerEvent: {}
+[29.108587] (-) TimerEvent: {}
+[29.208948] (-) TimerEvent: {}
+[29.309300] (-) TimerEvent: {}
+[29.409643] (-) TimerEvent: {}
+[29.510033] (-) TimerEvent: {}
+[29.567740] (ouster_ros) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable ouster_ros_test\x1b[0m\n'}
+[29.603573] (ouster_ros) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared library libos_sensor_component.so\x1b[0m\n'}
+[29.610149] (-) TimerEvent: {}
+[29.710510] (-) TimerEvent: {}
+[29.780193] (ouster_ros) StdoutLine: {'line': b'[ 94%] Built target os_sensor_component\n'}
+[29.786572] (ouster_ros) StdoutLine: {'line': b'[ 94%] Built target ouster_ros_test\n'}
+[29.810617] (-) TimerEvent: {}
+[29.910937] (-) TimerEvent: {}
+[30.011279] (-) TimerEvent: {}
+[30.111609] (-) TimerEvent: {}
+[30.211955] (-) TimerEvent: {}
+[30.312286] (-) TimerEvent: {}
+[30.412610] (-) TimerEvent: {}
+[30.512943] (-) TimerEvent: {}
+[30.613285] (-) TimerEvent: {}
+[30.713581] (-) TimerEvent: {}
+[30.813909] (-) TimerEvent: {}
+[30.914224] (-) TimerEvent: {}
+[31.014558] (-) TimerEvent: {}
+[31.114887] (-) TimerEvent: {}
+[31.215210] (-) TimerEvent: {}
+[31.315565] (-) TimerEvent: {}
+[31.415934] (-) TimerEvent: {}
+[31.516400] (-) TimerEvent: {}
+[31.616782] (-) TimerEvent: {}
+[31.717110] (-) TimerEvent: {}
+[31.817438] (-) TimerEvent: {}
+[31.917769] (-) TimerEvent: {}
+[32.018112] (-) TimerEvent: {}
+[32.118456] (-) TimerEvent: {}
+[32.218860] (-) TimerEvent: {}
+[32.319177] (-) TimerEvent: {}
+[32.419542] (-) TimerEvent: {}
+[32.488144] (ouster_ros) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library libos_image_component.so\x1b[0m\n'}
+[32.519640] (-) TimerEvent: {}
+[32.619973] (-) TimerEvent: {}
+[32.683453] (ouster_ros) StdoutLine: {'line': b'[ 96%] Built target os_image_component\n'}
+[32.720078] (-) TimerEvent: {}
+[32.820385] (-) TimerEvent: {}
+[32.920688] (-) TimerEvent: {}
+[33.020999] (-) TimerEvent: {}
+[33.121312] (-) TimerEvent: {}
+[33.221630] (-) TimerEvent: {}
+[33.321924] (-) TimerEvent: {}
+[33.422246] (-) TimerEvent: {}
+[33.522534] (-) TimerEvent: {}
+[33.622839] (-) TimerEvent: {}
+[33.723125] (-) TimerEvent: {}
+[33.823458] (-) TimerEvent: {}
+[33.923838] (-) TimerEvent: {}
+[34.024232] (-) TimerEvent: {}
+[34.124539] (-) TimerEvent: {}
+[34.224854] (-) TimerEvent: {}
+[34.325198] (-) TimerEvent: {}
+[34.425496] (-) TimerEvent: {}
+[34.525816] (-) TimerEvent: {}
+[34.626126] (-) TimerEvent: {}
+[34.726408] (-) TimerEvent: {}
+[34.826709] (-) TimerEvent: {}
+[34.927051] (-) TimerEvent: {}
+[35.027354] (-) TimerEvent: {}
+[35.053322] (ouster_ros) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared library libos_driver_component.so\x1b[0m\n'}
+[35.127438] (-) TimerEvent: {}
+[35.227729] (-) TimerEvent: {}
+[35.268101] (ouster_ros) StdoutLine: {'line': b'[ 98%] Built target os_driver_component\n'}
+[35.327815] (-) TimerEvent: {}
+[35.428055] (-) TimerEvent: {}
+[35.528293] (-) TimerEvent: {}
+[35.628605] (-) TimerEvent: {}
+[35.728889] (-) TimerEvent: {}
+[35.829204] (-) TimerEvent: {}
+[35.929489] (-) TimerEvent: {}
+[36.029798] (-) TimerEvent: {}
+[36.130074] (-) TimerEvent: {}
+[36.230336] (-) TimerEvent: {}
+[36.330628] (-) TimerEvent: {}
+[36.430916] (-) TimerEvent: {}
+[36.531227] (-) TimerEvent: {}
+[36.631514] (-) TimerEvent: {}
+[36.731772] (-) TimerEvent: {}
+[36.832023] (-) TimerEvent: {}
+[36.932278] (-) TimerEvent: {}
+[37.032560] (-) TimerEvent: {}
+[37.132861] (-) TimerEvent: {}
+[37.233160] (-) TimerEvent: {}
+[37.333500] (-) TimerEvent: {}
+[37.400738] (ouster_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libos_cloud_component.so\x1b[0m\n'}
+[37.433661] (-) TimerEvent: {}
+[37.533897] (-) TimerEvent: {}
+[37.609476] (ouster_ros) StdoutLine: {'line': b'[100%] Built target os_cloud_component\n'}
+[37.617533] (ouster_ros) CommandEnded: {'returncode': 0}
+[37.633996] (-) TimerEvent: {}
+[37.689238] (ouster_ros) JobProgress: {'identifier': 'ouster_ros', 'progress': 'install'}
+[37.689317] (ouster_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/awadh/ouster_ws/build/ouster_ros'], 'cwd': '/home/awadh/ouster_ws/build/ouster_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'awadh'), ('LC_TIME', 'en_IN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/awadh/ouster_ws/install/ouster_sensor_msgs/lib:/home/awadh/zed_ws/install/zed_topic_benchmark_component/lib:/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces/lib:/home/awadh/zed_ws/install/zed_rgb_convert/lib:/home/awadh/zed_ws/install/zed_aruco_localization/lib:/home/awadh/zed_ws/install/zed_components/lib:/home/awadh/zed_ws/install/rviz_plugin_zed_od/lib:/home/awadh/zed_ws/install/zed_interfaces/lib:/home/awadh/ouster_ws/install/ouster_ros/lib:/home/awadh/ros2_ws/install/my_robot_interfaces/lib:/home/awadh/sick_tim_ws/install/sick_tim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/awadh'), ('OLDPWD', '/home/awadh'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_IN.UTF-8'), ('MANAGERPID', '3038'), ('SYSTEMD_EXEC_PID', '3488'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6663'), ('COLCON_PREFIX_PATH', '/home/awadh/zed_ws/install:/home/awadh/ouster_ws/install:/home/awadh/sick_tim_ws/install:/home/awadh/ros2_ws/install:/home/awadh/gazebo_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'awadh'), ('JOURNAL_STREAM', '8:28380'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'awadh'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models::/home/awadh/.gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/awadh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/awadh:@/tmp/.ICE-unix/3469,unix/awadh:/tmp/.ICE-unix/3469'), ('INVOCATION_ID', '224fc21b5ca14a1eb2884819d0e4e33c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_IN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/awadh/gazebo_ws/install/my_robo_bringup:/home/awadh/gazebo_ws/install/my_robo_description:/home/awadh/zed_ws/install/zed_ros2:/home/awadh/zed_ws/install/zed_robot_integration:/home/awadh/zed_ws/install/zed_multi_camera:/home/awadh/zed_ws/install/zed_display_rviz2:/home/awadh/zed_ws/install/zed_depth_to_laserscan:/home/awadh/zed_ws/install/zed_wrapper:/home/awadh/zed_ws/install/zed_tutorial_video:/home/awadh/zed_ws/install/zed_tutorial_pos_tracking:/home/awadh/zed_ws/install/zed_tutorial_depth:/home/awadh/zed_ws/install/zed_topic_benchmark:/home/awadh/zed_ws/install/zed_topic_benchmark_component:/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces:/home/awadh/zed_ws/install/zed_rgb_convert:/home/awadh/zed_ws/install/zed_aruco_localization:/home/awadh/zed_ws/install/zed_components:/home/awadh/zed_ws/install/rviz_plugin_zed_od:/home/awadh/zed_ws/install/zed_interfaces:/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/sick_tim_ws/install/sick_tim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c63d7d1f-d7c7-46bf-9a2f-e0414e328f73'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_IN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_IN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/awadh/ouster_ws/build/ouster_ros'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages:/home/awadh/zed_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:/home/awadh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/awadh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/awadh/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN.UTF-8'), ('LC_PAPER', 'en_IN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/gazebo_ws/install/my_robo_bringup:/home/awadh/gazebo_ws/install/my_robo_description:/home/awadh/zed_ws/install/zed_ros2:/home/awadh/zed_ws/install/zed_robot_integration:/home/awadh/zed_ws/install/zed_multi_camera:/home/awadh/zed_ws/install/zed_display_rviz2:/home/awadh/zed_ws/install/zed_depth_to_laserscan:/home/awadh/zed_ws/install/zed_wrapper:/home/awadh/zed_ws/install/zed_tutorial_video:/home/awadh/zed_ws/install/zed_tutorial_pos_tracking:/home/awadh/zed_ws/install/zed_tutorial_depth:/home/awadh/zed_ws/install/zed_topic_benchmark:/home/awadh/zed_ws/install/zed_topic_benchmark_component:/home/awadh/zed_ws/install/zed_topic_benchmark_interfaces:/home/awadh/zed_ws/install/zed_rgb_convert:/home/awadh/zed_ws/install/zed_aruco_localization:/home/awadh/zed_ws/install/zed_components:/home/awadh/zed_ws/install/rviz_plugin_zed_od:/home/awadh/zed_ws/install/zed_interfaces:/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/awadh/sick_tim_ws/install/sick_tim')]), 'shell': False}
+[37.694558] (ouster_ros) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[37.694796] (ouster_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[37.695726] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/impl/build.h\n'}
+[37.696248] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/buffered_udp_source.h\n'}
+[37.696332] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/client.h\n'}
+[37.696467] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/defaults.h\n'}
+[37.696591] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/image_processing.h\n'}
+[37.696642] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/impl/cartesian.h\n'}
+[37.696705] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/impl/lidar_scan_impl.h\n'}
+[37.696842] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/impl/packet_writer.h\n'}
+[37.696977] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/impl/profile_extension.h\n'}
+[37.697112] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/lidar_scan.h\n'}
+[37.697245] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/sensor_http.h\n'}
+[37.697379] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/types.h\n'}
+[37.697506] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/util.h\n'}
+[37.697642] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/version.h\n'}
+[37.698052] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/optional-lite/nonstd/optional.hpp\n'}
+[37.698397] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfig.cmake\n'}
+[37.698506] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfigVersion.cmake\n'}
+[37.698671] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/LICENSE\n'}
+[37.698814] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/LICENSE-bin\n'}
+[37.699046] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/lib/ouster_ros/os_sensor\n'}
+[37.699251] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/lib/ouster_ros/os_replay\n'}
+[37.699476] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/lib/ouster_ros/os_cloud\n'}
+[37.699677] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/lib/ouster_ros/os_image\n'}
+[37.699893] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/lib/ouster_ros/os_driver\n'}
+[37.700087] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/lib/libouster_ros_library.so\n'}
+[37.700239] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/lib/libos_sensor_component.so\n'}
+[37.700388] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/lib/libos_replay_component.so\n'}
+[37.700530] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/lib/libos_cloud_component.so\n'}
+[37.700669] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/lib/libos_image_component.so\n'}
+[37.700730] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/lib/libos_driver_component.so\n'}
+[37.701272] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/common_point_types.h\n'}
+[37.701382] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_point.h\n'}
+[37.701532] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_processing_node_base.h\n'}
+[37.701680] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_ros.h\n'}
+[37.701827] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_sensor_node_base.h\n'}
+[37.701973] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/sensor_point_types.h\n'}
+[37.702113] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/visibility_control.h\n'}
+[37.702591] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/optional-lite/nonstd/optional.hpp\n'}
+[37.702777] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/buffered_udp_source.h\n'}
+[37.702914] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/client.h\n'}
+[37.703048] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/defaults.h\n'}
+[37.703184] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/image_processing.h\n'}
+[37.703412] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/impl/cartesian.h\n'}
+[37.703560] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/impl/lidar_scan_impl.h\n'}
+[37.703703] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/impl/packet_writer.h\n'}
+[37.703821] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/impl/profile_extension.h\n'}
+[37.703957] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/lidar_scan.h\n'}
+[37.704091] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/sensor_http.h\n'}
+[37.704226] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/types.h\n'}
+[37.704361] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/util.h\n'}
+[37.704493] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/version.h\n'}
+[37.704903] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/optional-lite/nonstd/optional.hpp\n'}
+[37.704957] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/LICENSE\n'}
+[37.705144] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/driver.launch.py\n'}
+[37.705192] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/driver_launch.py\n'}
+[37.705239] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/record.composite.launch.xml\n'}
+[37.705286] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/record.launch.xml\n'}
+[37.705332] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/replay.composite.launch.xml\n'}
+[37.705378] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/replay.launch.xml\n'}
+[37.705424] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/rviz.launch.py\n'}
+[37.705469] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/rviz.launch.xml\n'}
+[37.705518] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.py\n'}
+[37.705563] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.xml\n'}
+[37.705609] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/sensor.independent.launch.py\n'}
+[37.705651] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/sensor.independent.launch.xml\n'}
+[37.705698] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/sensor.launch.xml\n'}
+[37.705744] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/sensor_mtp.launch.xml\n'}
+[37.705867] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/config/community_driver.rviz\n'}
+[37.705914] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/config/community_driver_config.yaml\n'}
+[37.705959] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/config/driver_params.yaml\n'}
+[37.706006] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/config/metadata-qos-override.yaml\n'}
+[37.706050] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/config/os_sensor_cloud_image_params.yaml\n'}
+[37.706094] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/config/viz-reliable.rviz\n'}
+[37.706140] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/config/viz.rviz\n'}
+[37.706224] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/environment/library_path.sh\n'}
+[37.706298] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/environment/library_path.dsv\n'}
+[37.706379] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ament_index/resource_index/package_run_dependencies/ouster_ros\n'}
+[37.706661] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ament_index/resource_index/parent_prefix_path/ouster_ros\n'}
+[37.706727] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.sh\n'}
+[37.706795] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.dsv\n'}
+[37.706865] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/environment/path.sh\n'}
+[37.706931] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/environment/path.dsv\n'}
+[37.706997] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/local_setup.bash\n'}
+[37.707063] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/local_setup.sh\n'}
+[37.707127] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/local_setup.zsh\n'}
+[37.707192] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/local_setup.dsv\n'}
+[37.707245] (ouster_ros) StdoutLine: {'line': b'-- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/package.dsv\n'}
+[37.713457] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ament_index/resource_index/packages/ouster_ros\n'}
+[37.713719] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ament_index/resource_index/rclcpp_components/ouster_ros\n'}
+[37.713798] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[37.713874] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[37.713944] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[37.714019] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig.cmake\n'}
+[37.714067] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig-version.cmake\n'}
+[37.714140] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/package.xml\n'}
+[37.715459] (ouster_ros) CommandEnded: {'returncode': 0}
+[37.734220] (-) TimerEvent: {}
+[37.794912] (ouster_ros) JobEnded: {'identifier': 'ouster_ros', 'rc': 0}
+[37.795453] (-) EventReactorShutdown: {}

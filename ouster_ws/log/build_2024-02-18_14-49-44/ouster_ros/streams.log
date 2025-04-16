@@ -1,0 +1,337 @@
+[0.076s] Invoking command in '/home/awadh/ouster_ws/build/ouster_ros': AMENT_PREFIX_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/awadh/sick_tim_ws/install/sick_tim LD_LIBRARY_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs/lib:/home/awadh/ouster_ws/install/ouster_ros/lib:/home/awadh/ros2_ws/install/my_robot_interfaces/lib:/home/awadh/sick_tim_ws/install/sick_tim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/awadh/ouster_ws/src/ouster-ros/ouster-ros -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/awadh/ouster_ws/install/ouster_ros
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.170s] -- The CXX compiler identification is GNU 11.4.0
+[0.176s] -- Detecting C compiler ABI info
+[0.262s] -- Detecting C compiler ABI info - done
+[0.270s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.270s] -- Detecting C compile features
+[0.271s] -- Detecting C compile features - done
+[0.275s] -- Detecting CXX compiler ABI info
+[0.364s] -- Detecting CXX compiler ABI info - done
+[0.369s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.369s] -- Detecting CXX compile features
+[0.370s] -- Detecting CXX compile features - done
+[0.372s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.510s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.556s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.576s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.606s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.610s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.616s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.625s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.638s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.688s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.690s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.791s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.812s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.846s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.853s] -- Looking for pthread.h
+[0.923s] -- Looking for pthread.h - found
+[0.923s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.004s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.005s] -- Found Threads: TRUE  
+[1.118s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.164s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.192s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.277s] -- Found ouster_sensor_msgs: 0.12.2 (/home/awadh/ouster_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake)
+[1.306s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.317s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.327s] -- Found Eigen3: /usr/share/eigen3/cmake/Eigen3Config.cmake (found version "3.4.0") 
+[1.338s] -- Checking for module 'eigen3'
+[1.351s] --   Found eigen3, version 3.4.0
+[1.387s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.387s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.403s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.404s] -- looking for PCL_COMMON
+[1.405s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.405s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+[1.407s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.498s] -- Found tf2_eigen: 0.25.5 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.694s] -- Found jsoncpp: /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake (found version "1.9.5") 
+[1.747s] -- Found CURL: /usr/include/x86_64-linux-gnu (found version "7.81.0") 
+[1.824s] -- Found ament_cmake_gtest: 1.3.7 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.825s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.881s] -- Configuring done
+[1.939s] -- Generating done
+[1.941s] -- Build files have been written to: /home/awadh/ouster_ws/build/ouster_ros
+[1.955s] Invoked command in '/home/awadh/ouster_ws/build/ouster_ros' returned '0': AMENT_PREFIX_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/awadh/sick_tim_ws/install/sick_tim LD_LIBRARY_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs/lib:/home/awadh/ouster_ws/install/ouster_ros/lib:/home/awadh/ros2_ws/install/my_robot_interfaces/lib:/home/awadh/sick_tim_ws/install/sick_tim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/awadh/ouster_ws/src/ouster-ros/ouster-ros -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/awadh/ouster_ws/install/ouster_ros
+[1.957s] Invoking command in '/home/awadh/ouster_ws/build/ouster_ros': AMENT_PREFIX_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/awadh/sick_tim_ws/install/sick_tim LD_LIBRARY_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs/lib:/home/awadh/ouster_ws/install/ouster_ros/lib:/home/awadh/ros2_ws/install/my_robot_interfaces/lib:/home/awadh/sick_tim_ws/install/sick_tim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/awadh/ouster_ws/build/ouster_ros -- -j16 -l16
+[2.005s] [34m[1mGenerating build info header[0m
+[2.005s] [  3%] [32mBuilding CXX object CMakeFiles/os_replay.dir/rclcpp_components/node_main_os_replay.cpp.o[0m
+[2.005s] [  3%] [32mBuilding CXX object CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o[0m
+[2.006s] [  7%] [32mBuilding CXX object CMakeFiles/os_image.dir/rclcpp_components/node_main_os_image.cpp.o[0m
+[2.006s] [  7%] [32mBuilding CXX object CMakeFiles/os_cloud.dir/rclcpp_components/node_main_os_cloud.cpp.o[0m
+[2.006s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.006s] [ 11%] [32mBuilding CXX object CMakeFiles/os_driver.dir/rclcpp_components/node_main_os_driver.cpp.o[0m
+[2.006s] [ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.103s] [ 13%] Built target ouster_generate_header
+[2.130s] [ 15%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/client.cpp.o[0m
+[2.130s] [ 18%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/netcompat.cpp.o[0m
+[2.130s] [ 20%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/lidar_scan.cpp.o[0m
+[2.130s] [ 20%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/types.cpp.o[0m
+[2.130s] [ 22%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_info.cpp.o[0m
+[2.130s] [ 24%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/image_processing.cpp.o[0m
+[2.131s] [ 26%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/buffered_udp_source.cpp.o[0m
+[2.131s] [ 28%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/parsing.cpp.o[0m
+[2.131s] [ 30%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http.cpp.o[0m
+[2.600s] [ 32%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http_imp.cpp.o[0m
+[3.780s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.838s] [ 33%] Built target gtest_main
+[3.854s] [ 35%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_tcp_imp.cpp.o[0m
+[4.256s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:[m[K In member function ‘[01m[Kuint32_t ouster::sensor::packet_format::frame_id(const uint8_t*) const[m[K’:
+[4.257s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:443:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuint16_t ouster::sensor::packet_format::col_frame_id(const uint8_t*) const[m[K’ is deprecated: Use frame_id instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.257s]   443 |         return [01;35m[Kcol_frame_id(nth_col(0, lidar_buf))[m[K;
+[4.257s]       |                [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.257s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/impl/packet_writer.h:8[m[K,
+[4.257s]                  from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:18[m[K:
+[4.257s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:1102:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.257s]  1102 |     [[deprecated("Use frame_id instead")]] uint16_t [01;36m[Kcol_frame_id[m[K(
+[4.257s]       |                                                     [01;36m[K^~~~~~~~~~~~[m[K
+[4.804s] [ 37%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/logging.cpp.o[0m
+[6.780s] [ 39%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/profile_extension.cpp.o[0m
+[6.995s] [ 41%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/util.cpp.o[0m
+[8.602s] [ 43%] [32m[1mLinking CXX executable os_driver[0m
+[8.750s] [ 45%] [32m[1mLinking CXX executable os_sensor[0m
+[8.758s] [ 47%] [32m[1mLinking CXX executable os_replay[0m
+[8.764s] [ 47%] Built target os_driver
+[8.891s] [ 47%] Built target os_sensor
+[8.961s] [ 49%] [32m[1mLinking CXX executable os_cloud[0m
+[8.964s] [ 49%] Built target os_replay
+[9.097s] [ 49%] Built target os_cloud
+[9.127s] [ 50%] [32m[1mLinking CXX executable os_image[0m
+[9.256s] [ 50%] Built target os_image
+[12.947s] [ 52%] [32m[1mLinking CXX static library libgtest.a[0m
+[12.981s] [ 52%] Built target gtest
+[13.266s] [ 54%] [32m[1mLinking CXX static library libouster_client.a[0m
+[13.328s] [ 54%] Built target ouster_client
+[13.355s] [ 56%] [32mBuilding CXX object CMakeFiles/ouster_ros_library.dir/src/os_ros.cpp.o[0m
+[21.395s] [ 58%] [32m[1mLinking CXX shared library libouster_ros_library.so[0m
+[21.525s] [ 58%] Built target ouster_ros_library
+[21.552s] [ 75%] [32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_cloud_node.cpp.o[0m
+[21.553s] [ 75%] [32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node.cpp.o[0m
+[21.553s] [ 75%] [32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_processing_node_base.cpp.o[0m
+[21.553s] [ 75%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_sensor_node_base.cpp.o[0m
+[21.553s] [ 75%] [32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_sensor_node_base.cpp.o[0m
+[21.553s] [ 75%] [32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_replay_node.cpp.o[0m
+[21.553s] [ 75%] [32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node_base.cpp.o[0m
+[21.553s] [ 75%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/ring_buffer_test.cpp.o[0m
+[21.553s] [ 77%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_sensor_node.cpp.o[0m
+[21.554s] [ 81%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_transform_test.cpp.o[0m
+[21.554s] [ 81%] [32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_processing_node_base.cpp.o[0m
+[21.554s] [ 83%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_driver_node.cpp.o[0m
+[21.554s] [ 75%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/src/os_ros.cpp.o[0m
+[21.554s] [ 84%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_accessor_test.cpp.o[0m
+[21.556s] [ 86%] [32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_image_node.cpp.o[0m
+[21.557s] [ 88%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_cloud_compose_test.cpp.o[0m
+[32.352s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:24[m[K:
+[32.352s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time(const ouster::sensor::packet_format&, const uint8_t*)[m[K’:
+[32.353s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:224:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[32.353s]   224 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+[32.353s]       |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.353s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+[32.353s]                  from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12[m[K:
+[32.353s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.353s]   532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+[32.353s]       |     [01;36m[K^~~~~~~~[m[K
+[32.355s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:20[m[K:
+[32.355s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time(const ouster::sensor::packet_format&, const uint8_t*)[m[K’:
+[32.356s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:224:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[32.356s]   224 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+[32.356s]       |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.356s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+[32.356s]                  from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:13[m[K:
+[32.356s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.356s]   532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+[32.356s]       |     [01;36m[K^~~~~~~~[m[K
+[32.370s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:20[m[K:
+[32.371s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time_ptp(const ouster::sensor::packet_format&, const uint8_t*, int64_t)[m[K’:
+[32.371s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:233:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[32.371s]   233 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+[32.371s]       |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.371s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+[32.371s]                  from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:13[m[K:
+[32.371s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.372s]   532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+[32.372s]       |     [01;36m[K^~~~~~~~[m[K
+[32.372s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:20[m[K:
+[32.372s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_ros_time(const ouster::sensor::packet_format&, const uint8_t*)[m[K’:
+[32.372s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:250:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[32.372s]   250 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+[32.372s]       |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.372s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+[32.372s]                  from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:13[m[K:
+[32.373s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.373s]   532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+[32.373s]       |     [01;36m[K^~~~~~~~[m[K
+[32.376s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:24[m[K:
+[32.376s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time_ptp(const ouster::sensor::packet_format&, const uint8_t*, int64_t)[m[K’:
+[32.376s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:233:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[32.376s]   233 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+[32.376s]       |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.376s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+[32.376s]                  from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12[m[K:
+[32.377s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.377s]   532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+[32.377s]       |     [01;36m[K^~~~~~~~[m[K
+[32.377s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:24[m[K:
+[32.377s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_ros_time(const ouster::sensor::packet_format&, const uint8_t*)[m[K’:
+[32.377s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:250:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[32.377s]   250 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+[32.377s]       |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.378s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+[32.378s]                  from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12[m[K:
+[32.378s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.378s]   532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+[32.378s]       |     [01;36m[K^~~~~~~~[m[K
+[32.718s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:23[m[K:
+[32.718s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time(const ouster::sensor::packet_format&, const uint8_t*)[m[K’:
+[32.718s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:224:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[32.718s]   224 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+[32.718s]       |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.718s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+[32.718s]                  from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:17[m[K:
+[32.719s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.719s]   532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+[32.719s]       |     [01;36m[K^~~~~~~~[m[K
+[32.741s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:23[m[K:
+[32.741s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time_ptp(const ouster::sensor::packet_format&, const uint8_t*, int64_t)[m[K’:
+[32.741s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:233:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[32.741s]   233 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+[32.741s]       |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.741s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+[32.741s]                  from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:17[m[K:
+[32.742s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.742s]   532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+[32.742s]       |     [01;36m[K^~~~~~~~[m[K
+[32.742s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:23[m[K:
+[32.742s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_ros_time(const ouster::sensor::packet_format&, const uint8_t*)[m[K’:
+[32.742s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:250:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[32.742s]   250 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+[32.742s]       |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.743s] In file included from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+[32.743s]                  from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:17[m[K:
+[32.743s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.743s]   532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+[32.743s]       |     [01;36m[K^~~~~~~~[m[K
+[33.025s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:[m[K At global scope:
+[33.025s] [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:50:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[33.025s]    50 |     void metadata_handler(const std_msgs::msg::String::ConstPtr& metadata_msg[01;35m[K)[m[K {
+[33.025s]       |                                                                              [01;35m[K^[m[K
+[33.026s] In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+[33.026s]                  from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:14[m[K,
+[33.026s]                  from [01m[K/home/awadh/ouster_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:21[m[K:
+[33.026s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:105:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[33.026s]   105 |     [01;36m[KConstPtr[m[K;
+[33.026s]       |     [01;36m[K^~~~~~~~[m[K
+[34.513s] [ 90%] [32m[1mLinking CXX shared library libos_replay_component.so[0m
+[34.797s] [ 90%] Built target os_replay_component
+[41.200s] [ 92%] [32m[1mLinking CXX executable ouster_ros_test[0m
+[41.505s] [ 92%] Built target ouster_ros_test
+[42.604s] [ 94%] [32m[1mLinking CXX shared library libos_sensor_component.so[0m
+[42.856s] [ 94%] Built target os_sensor_component
+[45.606s] [ 96%] [32m[1mLinking CXX shared library libos_image_component.so[0m
+[45.865s] [ 96%] Built target os_image_component
+[46.856s] [ 98%] [32m[1mLinking CXX shared library libos_driver_component.so[0m
+[47.096s] [ 98%] Built target os_driver_component
+[50.289s] [100%] [32m[1mLinking CXX shared library libos_cloud_component.so[0m
+[50.520s] [100%] Built target os_cloud_component
+[50.533s] Invoked command in '/home/awadh/ouster_ws/build/ouster_ros' returned '0': AMENT_PREFIX_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/awadh/sick_tim_ws/install/sick_tim LD_LIBRARY_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs/lib:/home/awadh/ouster_ws/install/ouster_ros/lib:/home/awadh/ros2_ws/install/my_robot_interfaces/lib:/home/awadh/sick_tim_ws/install/sick_tim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/awadh/ouster_ws/build/ouster_ros -- -j16 -l16
+[50.659s] Invoking command in '/home/awadh/ouster_ws/build/ouster_ros': AMENT_PREFIX_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/awadh/sick_tim_ws/install/sick_tim LD_LIBRARY_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs/lib:/home/awadh/ouster_ws/install/ouster_ros/lib:/home/awadh/ros2_ws/install/my_robot_interfaces/lib:/home/awadh/sick_tim_ws/install/sick_tim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/awadh/ouster_ws/build/ouster_ros
+[50.666s] -- Install configuration: "Release"
+[50.667s] -- Execute custom install script
+[50.667s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/impl/build.h
+[50.679s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/buffered_udp_source.h
+[50.690s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/client.h
+[50.697s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/defaults.h
+[50.709s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/image_processing.h
+[50.721s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/impl/cartesian.h
+[50.732s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+[50.744s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/impl/packet_writer.h
+[50.753s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/impl/profile_extension.h
+[50.763s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/lidar_scan.h
+[50.773s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/sensor_http.h
+[50.782s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/types.h
+[50.790s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/util.h
+[50.801s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster/version.h
+[50.809s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/optional-lite/nonstd/optional.hpp
+[50.817s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfig.cmake
+[50.825s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfigVersion.cmake
+[50.834s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/LICENSE
+[50.841s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/LICENSE-bin
+[50.851s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/lib/ouster_ros/os_sensor
+[50.861s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/lib/ouster_ros/os_replay
+[50.868s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/lib/ouster_ros/os_cloud
+[50.874s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/lib/ouster_ros/os_image
+[50.883s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/lib/ouster_ros/os_driver
+[50.894s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/lib/libouster_ros_library.so
+[50.903s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/lib/libos_sensor_component.so
+[50.914s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/lib/libos_replay_component.so
+[50.923s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/lib/libos_cloud_component.so
+[50.932s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/lib/libos_image_component.so
+[50.941s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/lib/libos_driver_component.so
+[50.949s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/common_point_types.h
+[50.959s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_point.h
+[50.967s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_processing_node_base.h
+[50.976s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_ros.h
+[50.986s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_sensor_node_base.h
+[50.997s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/sensor_point_types.h
+[51.005s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/visibility_control.h
+[51.018s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/optional-lite/nonstd/optional.hpp
+[51.030s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/buffered_udp_source.h
+[51.040s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/client.h
+[51.051s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/defaults.h
+[51.062s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/image_processing.h
+[51.071s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/impl/cartesian.h
+[51.082s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+[51.091s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/impl/packet_writer.h
+[51.099s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/impl/profile_extension.h
+[51.110s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/lidar_scan.h
+[51.120s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/sensor_http.h
+[51.127s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/types.h
+[51.136s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/util.h
+[51.143s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/include/ouster/version.h
+[51.152s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/include/ouster_ros/optional-lite/nonstd/optional.hpp
+[51.159s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/LICENSE
+[51.167s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/driver.launch.py
+[51.173s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/driver_launch.py
+[51.179s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/record.composite.launch.xml
+[51.188s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/record.launch.xml
+[51.199s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/replay.composite.launch.xml
+[51.211s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/replay.launch.xml
+[51.222s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/rviz.launch.py
+[51.230s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/rviz.launch.xml
+[51.236s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.py
+[51.244s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.xml
+[51.251s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/sensor.independent.launch.py
+[51.260s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/sensor.independent.launch.xml
+[51.269s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/sensor.launch.xml
+[51.279s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/launch/sensor_mtp.launch.xml
+[51.287s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/config/community_driver.rviz
+[51.298s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/config/community_driver_config.yaml
+[51.310s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/config/driver_params.yaml
+[51.320s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/config/metadata-qos-override.yaml
+[51.330s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/config/os_sensor_cloud_image_params.yaml
+[51.339s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/config/viz-reliable.rviz
+[51.347s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/config/viz.rviz
+[51.356s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/environment/library_path.sh
+[51.363s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/environment/library_path.dsv
+[51.375s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ament_index/resource_index/package_run_dependencies/ouster_ros
+[51.385s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ament_index/resource_index/parent_prefix_path/ouster_ros
+[51.396s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.sh
+[51.409s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.dsv
+[51.421s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/environment/path.sh
+[51.433s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/environment/path.dsv
+[51.442s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/local_setup.bash
+[51.452s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/local_setup.sh
+[51.460s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/local_setup.zsh
+[51.471s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/local_setup.dsv
+[51.483s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/package.dsv
+[51.494s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ament_index/resource_index/packages/ouster_ros
+[51.505s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ament_index/resource_index/rclcpp_components/ouster_ros
+[51.517s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.527s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.537s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[51.546s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig.cmake
+[51.555s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig-version.cmake
+[51.563s] -- Symlinking: /home/awadh/ouster_ws/install/ouster_ros/share/ouster_ros/package.xml
+[51.576s] Invoked command in '/home/awadh/ouster_ws/build/ouster_ros' returned '0': AMENT_PREFIX_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs:/home/awadh/ouster_ws/install/ouster_ros:/home/awadh/ros2_ws/install/my_robot_bringup:/home/awadh/ros2_ws/install/turtlesim_project_cpp:/home/awadh/ros2_ws/install/my_cpp_pkg:/home/awadh/ros2_ws/install/my_robot_interfaces:/home/awadh/ros2_ws/install/turtlesim_catch_them_all:/home/awadh/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/awadh/sick_tim_ws/install/sick_tim LD_LIBRARY_PATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs/lib:/home/awadh/ouster_ws/install/ouster_ros/lib:/home/awadh/ros2_ws/install/my_robot_interfaces/lib:/home/awadh/sick_tim_ws/install/sick_tim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/awadh/ouster_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/awadh/ouster_ws/build/ouster_ros
