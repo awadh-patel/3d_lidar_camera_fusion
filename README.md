@@ -65,3 +65,15 @@ cd ../zed_ws && colcon build
 cd ../depth_ws && colcon build
 cd ../gazebo_ws && colcon build
 
+
+
+camera_lidar_fusion_thesis/
+│
+├── README.md
+├── LICENSE
+├── ouster_ws/             # Workspace for LiDAR
+├── zed_ws/                # Workspace for ZED camera
+├── depth_ws/              # Object detection and depth estimation
+├── gazebo_ws/             # SIL simulation setup
+├── yolobot/               # YOLO object detection for Gazebo
+└── docs/                  # Optional: thesis PDF, images, diagrams
