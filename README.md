@@ -56,7 +56,7 @@ environment - **yolobot**: YOLOv8 object detection code for simulation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/camera-lidar-fusion-3d.git
+https://github.com/awadh-patel/3d_lidar_camera_fusion.git
 3d_lidar_camera_fusion
 
 # Build each workspace
