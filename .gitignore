@@ -37,7 +37,3 @@ Makefile
 colcon_workspace/
 .colcon/
 
-# Ignore dataset and model folders (optional, uncomment if needed)
-# data/
-# models/
-# yolobot/runs/
