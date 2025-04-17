@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="OS1-64">
+
+
+    <xacro:property name="lidar_radius" value="0.042" />
+    <xacro:property name="lidar_length" value="0.073" />
+
+
+    <link name="os_sensor">
+         <visual>
+            <geometry>
+                <cylinder radius="${lidar_radius}" length="${lidar_length}" /> 
+            </geometry>
+            <material name="grey" />
+        </visual>
+        <collision>
+            <geometry>
+                    <cylinder radius="${lidar_radius}" length="${lidar_length}" /> 
+            </geometry>
+        </collision>
+        <xacro:wheel_inertia m="0.380" r="${lidar_radius}" h="${lidar_length}"
+                             xyz="0 0 0" rpy="0 0 0" />
+    </link>
+
+    <joint name="base_os_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="os_sensor" />
+        <origin xyz="0 0 ${base_height + 0.03}" rpy="0 0 0" />
+    </joint>
+
+
+    <link name="os_imu" />
+    
+    <joint name="os_sensor_imu_link_joint" type="fixed">
+      <parent link="os_sensor" />
+      <child link="os_imu" />
+      <origin xyz="0.006253 -0.011775 0.007645" rpy="0 0 0" />
+    </joint>
+    <gazebo reference="os_imu">
+    </gazebo>
+
+
+    <link name="os_lidar" />
+
+    <joint name="os_sensor_lidar_link_joint" type="fixed">
+      <parent link="os_sensor" />
+      <child link="os_lidar" />
+      <origin xyz="0.0 0.0 0.03618" rpy="0 0 0" />
+    </joint>
+
+
+
+    <!-- Plugin for 2d lidar -->
+
+    <!-- <gazebo reference="os_sensor">
+        <material>Gazebo/Grey</material>
+        <sensor name="lidar" type="ray">
+            <pose>0 0 0 0 0 0</pose>
+            <visualize>false</visualize>
+            <update_rate>10</update_rate>
+            <ray>
+                <scan>
+                    <horizontal>
+                        <samples>360</samples>
+                        <resolution>1</resolution>
+                        <min_angle>-3.14</min_angle>
+                        <max_angle>3.14</max_angle>
+                    </horizontal>
+                </scan>
+                <range>
+                    <min>0.3</min>
+                    <max>10</max>
+                    <resolution>0.02</resolution>
+                </range>
+            </ray>
+            <plugin name="lidar_controller" filename="libgazebo_ros_ray_sensor.so">
+                <ros>
+                    <argument>~/out:=scan</argument>
+                </ros>
+                <output_type>sensor_msgs/LaserScan</output_type>
+                <frame_name>os_sensor</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo>
+</robot> -->
+
+
+
+    <!-- Plugin for 3d lidar -->
+
+    <gazebo reference="os_sensor">
+        <material>Gazebo/Grey</material>
+        <sensor name="lidar_sensor" type="ray">
+          <always_on>true</always_on>
+          <pose>0 0 0 0 0 0</pose>
+          <visualize>false</visualize>
+          <update_rate>10.0</update_rate>
+          <ray>
+            <scan>
+              <horizontal>
+                <samples>512</samples>
+                <resolution>1</resolution>
+                <min_angle>-3.1415926535897931</min_angle>
+                <max_angle>3.1415926535897931</max_angle>
+              </horizontal>
+              <vertical>
+                <samples>64</samples>
+                <resolution>1</resolution>
+                <min_angle>-0.33</min_angle>
+                <max_angle>0.90</max_angle>
+              </vertical>
+            </scan>
+            <range>
+              <min>0.3</min>
+              <max>10.0</max>
+              <resolution>0.03</resolution>
+            </range>
+          </ray>
+          <plugin name="lidar_controller" filename="libgazebo_ros_ray_sensor.so">
+            <ros>
+              <remapping>~/out:=scan</remapping>                                                                                                                           
+            </ros>
+            <output_type>sensor_msgs/PointCloud2</output_type>
+            <alwaysOn>true</alwaysOn>
+            <updateRate>10.0</updateRate>
+            <topicName>/scan</topicName>
+            <frameName>os_sensor</frameName>
+            <organize_cloud>true</organize_cloud>
+            <min_range>0.3</min_range>
+            <max_range>100.0</max_range>
+            <gaussianNoise>0.008</gaussianNoise>
+            <output_type>sensor_msgs/PointCloud2</output_type>
+          </plugin>
+        </sensor>
+    </gazebo>
+
+
+  <gazebo>
+    <plugin name="imu_controller" filename="libhector_gazebo_ros_imu.so">
+      <robotNamespace>/</robotNamespace>
+      <updateRate>100.0</updateRate> 
+      <bodyName>os_imu</bodyName>
+      <topicName>/imu</topicName>
+      <accelDrift>0.005 0.005 0.005</accelDrift>
+      <accelGaussianNoise>0.005 0.005 0.005</accelGaussianNoise>
+      <rateDrift>0.005 0.005 0.005 </rateDrift>
+      <rateGaussianNoise>0.005 0.005 0.005 </rateGaussianNoise>
+      <headingDrift>0.005</headingDrift>
+      <headingGaussianNoise>0.005</headingGaussianNoise>
+    </plugin>
+  </gazebo>
+
+</robot>
