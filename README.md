@@ -2,13 +2,6 @@
 
 This repository contains the implementation of my master's thesis. It demonstrates the integration of a ZED 2i stereo camera and Ouster OS0-128 LiDAR within a ROS2 Humble on Ubuntu 22.04 based framework, enabling real-time 3D object detection and depth estimation. It supports both **Software-in-the-Loop (SiL)** using Gazebo and **Hardware-in-the-Loop (HiL)** with real sensors.
 
-## Workspaces
-- **ouster_ws**: Operates the LiDAR and visualizes point clouds in RViz2 
-- **zed_ws**: Operates the ZED camera and its functions - **depth_ws**: 
-Fuses ZED and LiDAR data for object detection and depth estimation - 
-**gazebo_ws**: Software-in-the-Loop (SiL) simulation with robot in urban 
-environment - **yolobot**: YOLOv8 object detection code for simulation
-
 ## Documentation
 - Thesis report is available in the `docs/` folder.
 
@@ -193,7 +186,7 @@ ros2  launch my_robot_bringup my_robot_gazebo.launch.xml
 ros2 launch nav2_bringup bringup_launch.py use_sim_time:=True map:=maps/my_world.yaml
 ros2 run rviz2 rviz2 
 
-camera_lidar_fusion_thesis/
+3d_lidar_camera_fusion/
 │
 ├── README.md
 ├── LICENSE
